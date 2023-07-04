@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MISCARCHIVE | IT Digital Agency</title>
+<title>MISCARCHIVE | IT Digital Marketing Agency</title>
 <meta name="author" content="Miscarchive">
 <meta name="description" content="MISCARCHIVE| IT Digital Agency">
 <meta name="keywords" content="html, template, carousel, theme, themezinho, agency, html5">

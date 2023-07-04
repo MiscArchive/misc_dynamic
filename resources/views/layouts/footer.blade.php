@@ -53,7 +53,7 @@
       <div class="col-md-6">
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <div class="elfsight-app-4755684f-b1cf-4ee2-b1e8-26479ae849bb"></div>
-        <h6>Copyright © 2023 , MiscArchive| IT Solution | Digital Agency | Audibles</h6>
+        <h6>Copyright © 2023 , MiscArchive | IT Solution | Digital Marketing Agency | Audibles</h6>
       </div>
       <!-- end col-6 -->
       <div class="col-md-6">
