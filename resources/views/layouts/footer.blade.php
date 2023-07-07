@@ -97,6 +97,9 @@
 <script src="{{asset('assets/js/jquery.themepunch.revolution.min.js')}}" type='text/javascript' ></script>
 <script src="{{asset('assets/js/settings.js')}}" type='text/javascript' ></script> 
 <script src="{{asset('assets/js/scripts.js')}}" type='text/javascript' ></script>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCWBVHW"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
