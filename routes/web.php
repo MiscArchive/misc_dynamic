@@ -4,6 +4,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
+use Spatie\Sitemap\SitemapGenerator;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,4 +48,11 @@ Route::middleware(['role:admin', 'auth'])->group(function () {
 
 Route::middleware(['auth'])->group(function () {
     Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+});
+
+Route::get('/sitemap.xml', function () {
+    SitemapGenerator::create(config('app.url'))
+       ->writeToFile(public_path('sitemap.xml'));
+
+    return response()->view('sitemap.index')->header('Content-Type', 'application/xml');
 });
