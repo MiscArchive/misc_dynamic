@@ -6,8 +6,8 @@
     <div class="banner">
         <div id="rev_slider_35_1" class="rev_slider fullwidthabanner">
             <ul>
-                <li data-transition="scaledownfromtop" data-masterspeed="700"> <img class="responsive"
-                        src="{{asset('assets/images/HOMEPAGE.webp')}}" alt="Image" data-bgposition="center center" data-bgfit="cover"
+                <li data-transition="scaledownfromtop" data-masterspeed="700"> <img class="img-fluid" alt="Responsive image"
+                        src="{{asset('assets/images/HOMEPAGE.webp')}}"  data-bgposition="center center" data-bgfit="cover"
                         data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     <div class="tp-caption lfb ltt tp-resizeme start" data-x="center" data-hoffset="0" data-y="center"
                         data-voffset="0" data-speed="600" data-start="400" data-easing="Power4.easeOut"

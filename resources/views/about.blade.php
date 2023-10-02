@@ -42,7 +42,7 @@
             </div>
         </section>
 
-
+{{-- 
         <section class="team-members">
             <br><br><br><br><br><br><br>
             <div class="container wow fadeInUp">
@@ -55,7 +55,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <!-- end col-4 -->
+                 
                     <div class="col-md-3 col-sm-3">
                         <figure><img src="{{ asset('assets/images/anoop.webp') }}" alt="Image">
                             <figcaption>
@@ -64,7 +64,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <!-- end col-4 -->
+                   
                     <div class="col-md-3 col-sm-3">
                         <figure><img src="{{ asset('assets/images/anju.webp') }}" alt="Image">
                             <figcaption>
@@ -73,7 +73,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <!-- end col-4 -->
+                    
                     <div class="col-md-3 col-sm-3">
                         <figure><img src="{{ asset('assets/images/akhil (1).webp') }}" alt="Image">
                             <figcaption>
@@ -82,12 +82,12 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <!-- end col-4 -->
+                  
                 </div>
-                <!-- end row -->
+               
             </div>
-            <!-- end container -->
-        </section>
+            
+        </section> --}}
         <!-- end team-members -->
 
         <!-- end fun-facts -->
