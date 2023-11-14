@@ -85,4 +85,9 @@ class PageController extends Controller
 
         return redirect()->back();
     }
+
+    public function tatawisdom()
+    {
+        return view('tatawisdom');
+    }
 }

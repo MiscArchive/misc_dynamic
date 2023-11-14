@@ -30,6 +30,7 @@ Route::get('ppc', [PageController::class, 'ppc'])->name('ppc');
 Route::post('enquiry', [PageController::class, 'enquiry'])->name('enquiry');
 Route::post('contactform', [PageController::class, 'contactform'])->name('contactform');
 Route::get('thankyou', [PageController::class, 'thankyou'])->name('thankyou');
+Route::get('tatawisdom', [PageController::class, 'tatawisdom'])->name('tatawisom');
 
 Route::post('login', [LoginController::class, 'authenticate'])->name('login');
 Route::get('admin/register', [LoginController::class, 'register'])->name('register');
