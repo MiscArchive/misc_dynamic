@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\WisdomController;
 use Illuminate\Support\Facades\Route;
 use Spatie\Sitemap\SitemapGenerator;
 
@@ -25,10 +26,13 @@ Route::get('service', [PageController::class, 'service'])->name('service');
 Route::get('contact', [PageController::class, 'contact'])->name('contact');
 Route::get('ai-rpa', [PageController::class, 'ai_rpa'])->name('ai-rpa');
 Route::get('smm', [PageController::class, 'smm'])->name('smm');
+Route::get('dmn', [PageController::class, 'dmn'])->name('dmn');
 Route::get('seo', [PageController::class, 'seo'])->name('seo');
 Route::get('ppc', [PageController::class, 'ppc'])->name('ppc');
 Route::post('enquiry', [PageController::class, 'enquiry'])->name('enquiry');
 Route::post('contactform', [PageController::class, 'contactform'])->name('contactform');
+Route::post('orders', [PageController::class, 'orders'])->name('orders');
+
 Route::get('thankyou', [PageController::class, 'thankyou'])->name('thankyou');
 Route::get('tatawisdom', [PageController::class, 'tatawisdom'])->name('tatawisom');
 
@@ -36,6 +40,12 @@ Route::post('login', [LoginController::class, 'authenticate'])->name('login');
 Route::get('admin/register', [LoginController::class, 'register'])->name('register');
 Route::get('admin/signin', [LoginController::class, 'signin'])->name('signin');
 Route::post('/signup', [LoginController::class, 'signup'])->name('signup');
+
+// Wisdom routes
+Route::middleware(['role:wisdom', 'auth'])->group(function () {
+    Route::view('wisdom/dashboard-wisdom', 'wisdom/dash-wisdom');
+    Route::get('tataorders', [WisdomController::class, 'tataorders'])->name('tataorders');
+});
 
 // Employee routes
 Route::middleware(['role:employee', 'auth'])->group(function () {

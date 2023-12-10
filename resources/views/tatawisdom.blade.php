@@ -241,7 +241,8 @@
               </div><!-- /.reservation__banner -->
             </div><!-- /.col-lg-5 -->
             <div class="col-sm-12 col-md-12 col-lg-7">
-              <form class="reservation__form">
+              <form action="{{route('orders')}}" method="post" class="reservation__form">
+                @csrf
                 <div class="row">
                   <div class="col-12">
                     <div class="reservation__form-heading  mb-30">
@@ -261,22 +262,22 @@
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Your Name">
+                      <input name="name" id="name" type="text" class="form-control" placeholder="Your Name">
                     </div>
                   </div><!-- /.col-lg-6 -->
                   
                   <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="form-group">
-                      <input type="number" class="form-control" placeholder="Phone Number">
+                      <input name="phone" id="phone" type="number" class="form-control" placeholder="Phone Number">
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="form-group">
-                      <textarea class="form-control" placeholder="Mention the order here"></textarea>
+                      <textarea name="orders" id="orders" class="form-control" placeholder="Mention the order here"></textarea>
                     </div>
                   </div><!-- /.col-lg-12 -->
                   <div class="col-sm-12 col-md-12 col-lg-12">
-                    <button type="submit" class="btn btn__primary btn__block">place order</button>
+                    <button name="submit" id="submit" type="submit" class="btn btn__primary btn__block">place order</button>
                   </div><!-- /.col-lg-12 -->
                 </div><!-- /.row -->
               </form>

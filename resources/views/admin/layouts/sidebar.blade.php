@@ -65,6 +65,8 @@
                     </a>
                 </li> --}}
 @elseif (auth()->user()->role=="employee")
+
+
 <li class="nav-item">
     <a href="" class="nav-link menu-link"> <i
             class="ph-folder-open"></i> <span data-key="t-file-manager">Post Jobs</span>
@@ -74,6 +76,12 @@
 <li class="nav-item">
     <a href="" class="nav-link menu-link"> <i
             class="ph-folder-open"></i> <span data-key="t-file-manager">Canidates</span>
+    </a>
+</li>
+@elseif (auth()->user()->role=="wisdom")
+<li class="nav-item">
+    <a href="{{route('tataorders')}}" class="nav-link menu-link"> <i
+            class="ph-folder-open"></i> <span data-key="t-file-manager">Order  Details</span>
     </a>
 </li>
 

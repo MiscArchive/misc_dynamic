@@ -64,7 +64,7 @@
               <h3>ABOUT <span>MiscArchive</span></h3>
               <p>Our goal is to emerge as the first and excellent choice for enterprise-wide solutions as a Branding agency and a poadcasting partner in Trivandrum with our team of closely-knit yet enthusiastic individuals.</p>
               <p> At MiscArchive, we provide high-quality or innovative value-added solutions within the domains of digital marketing services, Web Designing, Web development, Social Media management, and other comparable miscellaneous services. We assist our clients through expert-level ideation, comprehensive project execution, seamless work experience, easy interactive team collaboration, and overall team transparency for absolutely everyone involved.</p>
-              <a href="about-us.html">READ MORE</a> </div>
+              <a href="{{route('about')}}">READ MORE</a> </div>
             <!-- end inner --> 
           </div>
           <!-- end table --> 
@@ -76,9 +76,151 @@
     <!-- end container --> 
   </section>
 
+  <section class="logos">
+    <div class="container wow fadeInUp">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>LOGOS</h2>
+                <div class="logos-carousel">
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/C L 01.webp') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/C L 02.webp') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/C L 03.webp') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                   
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/C L 05.webp') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/C L 07.webp') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/bulletclub.png') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/bm.png') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/cs.png') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
 
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/jsml.png') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
 
-<!-- end fun-facts -->
+                
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/navaka.png') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/pounchik.png') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/rainbo.png') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/rrv.png') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/JSM.png') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                </div>
+                <!-- end logos-carousel -->
+            </div>
+            <!-- end col-12 -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+  <section class="services">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-3 no-padding">
+          <div class="box yellow-bg">
+            <div class="table">
+              <div class="inner"> <img src="{{asset('assets/images/dm.png')}}" alt="Image">
+                <h4>Branding & Digital Marketing</h4>
+                <p>Misc Archive is a leading Digital Marketing Company in Trivandrum. We're dedicated to helping you shape your brand identity and elevate your impact in the world through branding.Graphic design is the centre of attraction for any business. We at Misc Archive create unique graphic designs that help improve your business's online visibility. </p>
+                
+                <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a> </div>
+              <!-- end inner --> 
+            </div>
+            <!-- end table --> 
+          </div>
+          <!-- end box --> 
+        </div>
+        <!-- end col-3 -->
+        <div class="col-md-3 no-padding">
+          <div class="box yellow-bg">
+            <div class="table">
+              <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
+                <h4>Web & Mobile App Development</h4>
+                <p>Misc Archive is one of the finest web development companies in Trivandrum. We're passionate about turning your online presence into a masterpiece. A custom-built website is our main attraction.we're dedicated to turning your app vision into a reality that exceeds expectations.<br><br>  </p>
+                
+                <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a></div>
+              <!-- end inner --> 
+            </div>
+            <!-- end table --> 
+          </div>
+          <!-- end box --> 
+        </div>
+        <!-- end col-3 -->
+        <div class="col-md-3 no-padding">
+          <div class="box yellow-bg">
+            <div class="table">
+              <div class="inner"> <img src="{{asset('assets/images/mic.png')}}" alt="Image">
+                <h4>Podcast</h4>
+                <p>At Misc Archive, we're your best podcast company in Trivandrum for discovering, creating, and sharing the fascinating world of voices.<br><br> <br><br> <br><br> <br> </p>
+               
+                <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a> </div>
+              <!-- end inner --> 
+            </div>
+            <!-- end table --> 
+          </div>
+          <!-- end box --> 
+        </div>
+        <!-- end col-3 -->
+        <div class="col-md-3 no-padding">
+          <div class="box yellow-bg">
+            <div class="table">
+              <div class="inner"> <img src="{{asset('assets/images/branding.png')}}" alt="Image">
+                <h4>Event Managment</h4>
+                <p>We are the best event management company in Trivandrum from planning to organising, and executing a wide range of events. Corporate conferences, brand launches, music concerts to trade exhibitions etc. <br><br> <br><br> <br> </p>
+  
+                <span class="expand btn4">EXPAND</span> </div>
+              <!-- end inner --> 
+            </div>
+            <!-- end table --> 
+          </div>
+          <!-- end box --> 
+        </div>
+        <!-- end col-3 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+<!-- end service -->
 
 <!-- end logos -->
 <section class="latest-news" style="color: black;">
@@ -86,8 +228,8 @@
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-xs-12">
-
-                <h3>Latest <span>Blogs</span></h3>
+>
+                <h3>Latest <span>Blogs</span></h3
             </div>
             <!-- end col-12 -->
             <div class="col-md-6">
@@ -110,18 +252,15 @@
             <!-- end col-6 -->
             <div class="col-md-6">
                 <div class="news-box">
-                    <figure><img src="{{asset('assets/images/blogs/PPC.png')}}" alt="Image"></figure>
-                    <h4>Pay Per Clicks in 2023</h4>
+                    <figure><img src="{{asset('assets/images/blogs/PPC4.jpg')}}" alt="Image"></figure>
+                    <h4>Why Misc Archive is the Best Digital Marketing Company In Trivandrum?</h4>
                     <!-- <small>Photography, Design, Tutorials</small> -->
-                    <p>Misc Archive is a digital marketing agency in Trivandrum that specialises in providing cheap and
-                        high-quality digital marketing services to all kinds of businesses. We work with businesses of
-                        all sizes to develop customised digital marketing solutions that help them reach their goals.
-                        Our team of experts is always looking for ways to get your business in front of the right people
-                        and drive traffic to your website. One of the ways we do this is by setting up a Pay Per Click
-                        (PPC) campaign using Google Ads. Pay Per Click (PPC) campaigns using Google Ads are one of the
-                        most powerful tools available for quickly getting your business in front of potential customers.
+                    <p>Misc Archive is the Best Digital Marketing Company In Trivandrum. We specialise in creating custom marketing solutions for brands and businesses in India and throughout the world.
+                        By skilfully fusing the 3 C’s of marketing-Customer, Company, Competitor- with the influence of the web, social media marketing, and mobile technology, our team enables our clients to realise their full potential.
+                        <br>
+                        we understand that in the fast-paced world of digital marketing, staying ahead of the curve is paramount. Here's why partnering with us is your best decision and we’ll assure you that we are the “ Best Digital Marketing company in Trivandrum''
                     </p>
-                    <a href="PPC.html" class="link">READ MORE</a>
+                    <a href="{{route('dmn')}}" class="link">READ MORE</a>
                 </div>
                 <!-- end news-box -->
             </div>
@@ -140,17 +279,15 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="content-box">
-                    <h3>Discover how we can assist you!</h3>
+                    <h3>Why Choose Miscarchive for Your Digital Marketing Needs?</h3>
                     <p>We are delighted to hear from you and are excited to learn more about your project or business.
                         Our team of experts is always eager to provide top-notch digital marketing and web development
                         services tailored to your unique needs.
 
-                        Please use the form below to send us a message. We aim to respond to all inquiries very fast.
-                        Don't hesitate to ask us any questions you may have, and let us know how we can assist you in
-                        achieving your business goals.
+                        At Miscarchive, we understand that in the fast-paced world of digital marketing, staying ahead of the curve is paramount. Here's why partnering with us is your best decision and we’ll assure you that we are the “ Best Digital Marketing company in Trivandrum''
 
-                        Thank you for considering our services. We look forward to hearing from you soon!</p>
-                    <a href="#"class="hamburger-menu">Get In Touch</a>
+                </p>
+                    <a href="#"class="hamburger-menu">Know More About Us</a>
                 </div>
                 <!-- end content-box -->
             </div>

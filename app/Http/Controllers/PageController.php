@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Enquiry;
+use App\Models\Tataorder;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -40,6 +41,11 @@ class PageController extends Controller
     public function smm()
     {
         return view('smm');
+    }
+
+    public function dmn()
+    {
+        return view('dmn');
     }
 
     public function seo()
@@ -89,5 +95,18 @@ class PageController extends Controller
     public function tatawisdom()
     {
         return view('tatawisdom');
+    }
+
+    public function orders(Request $request)
+    {
+        // dd($request);
+        $tataorders = new Tataorder();
+        $tataorders->name = $request->name;
+        $tataorders->phone = $request->phone;
+        $tataorders->orders = $request->orders;
+
+        $tataorders->save();
+
+        return redirect()->back();
     }
 }

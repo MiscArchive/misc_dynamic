@@ -30,7 +30,7 @@
                                     expert-level ideation, comprehensive project execution, seamless work experience, easy
                                     interactive team collaboration, and overall team transparency for absolutely everyone
                                     involved.</p>
-                                <a href="#">READ MORE</a>
+                               
                             </div>
                             <!-- end inner -->
                         </div>
@@ -109,16 +109,53 @@
                                 <figure><img src="{{ asset('assets/images/C L 03.webp') }}" alt="Image"></figure>
                             </div>
                             <!-- end item -->
-                            <div class="item">
-                                <figure><img src="{{ asset('assets/images/C L 01.webp') }}"alt="Image"></figure>
-                            </div>
-                            <!-- end item -->
+                           
                             <div class="item">
                                 <figure><img src="{{ asset('assets/images/C L 05.webp') }}" alt="Image"></figure>
                             </div>
                             <!-- end item -->
                             <div class="item">
                                 <figure><img src="{{ asset('assets/images/C L 07.webp') }}" alt="Image"></figure>
+                            </div>
+                            <!-- end item -->
+                            <div class="item">
+                                <figure><img src="{{ asset('assets/images/bulletclub.png') }}" alt="Image"></figure>
+                            </div>
+                            <!-- end item -->
+                            <div class="item">
+                                <figure><img src="{{ asset('assets/images/bm.png') }}" alt="Image"></figure>
+                            </div>
+                            <!-- end item -->
+                            <div class="item">
+                                <figure><img src="{{ asset('assets/images/cs.png') }}" alt="Image"></figure>
+                            </div>
+                            <!-- end item -->
+        
+                            <div class="item">
+                                <figure><img src="{{ asset('assets/images/jsml.png') }}" alt="Image"></figure>
+                            </div>
+                            <!-- end item -->
+        
+                        
+                            <div class="item">
+                                <figure><img src="{{ asset('assets/images/navaka.png') }}" alt="Image"></figure>
+                            </div>
+                            <!-- end item -->
+        
+                            <div class="item">
+                                <figure><img src="{{ asset('assets/images/pounchik.png') }}" alt="Image"></figure>
+                            </div>
+                            <!-- end item -->
+                            <div class="item">
+                                <figure><img src="{{ asset('assets/images/rainbo.png') }}" alt="Image"></figure>
+                            </div>
+                            <!-- end item -->
+                            <div class="item">
+                                <figure><img src="{{ asset('assets/images/rrv.png') }}" alt="Image"></figure>
+                            </div>
+                            <!-- end item -->
+                            <div class="item">
+                                <figure><img src="{{ asset('assets/images/JSM.png') }}" alt="Image"></figure>
                             </div>
                             <!-- end item -->
                         </div>
@@ -137,15 +174,9 @@
                     <div class="col-xs-12">
                         <div class="content-box">
                             <h3>Discover how we can assist you!</h3>
-                            <p>We are delighted to hear from you and are excited to learn more about your project or
-                                business. Our team of experts is always eager to provide top-notch digital marketing and web
-                                development services tailored to your unique needs.
+                            <p>Don't settle for mediocrity; choose Miscarchives as your trusted digital marketing partner. Join the ranks of businesses that have experienced unparalleled success with us. Contact us today to embark on your journey to digital greatness.
 
-                                Please use the form below to send us a message. We aim to respond to all inquiries very
-                                fast. Don't hesitate to ask us any questions you may have, and let us know how we can assist
-                                you in achieving your business goals.
-
-                                Thank you for considering our services. We look forward to hearing from you soon!</p>
+                           </p>
                             <a href="#" class="hamburger-menu">Get In Touch</a>
                         </div>
                         <!-- end content-box -->
