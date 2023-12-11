@@ -6,24 +6,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MISCARCHIVE | IT Digital Marketing Agency</title>
 <meta name="author" content="Miscarchive">
-<meta name="description" content="MISCARCHIVE| IT Digital Agency">
+<meta name="description" content="Best Digital Marketing Company in Trivandrum. Misc Archive Provide Best Website Development Company in Trivandrum and Social Media Marketing | Google Ads">
 <meta name="keywords" content="html, template, carousel, theme, themezinho, agency, html5">
+<meta name="title" content="Digital Marketing Company in Trivandrum | Seo Services in Trivandrum">
 
 <!-- SOCIAL MEDIA META -->
 <meta property="og:description" content="MISCARCHIVE| IT Digital Agency">
 <meta property="og:image" content="">
 <meta property="og:site_name" content="MISCARCHIVE">
-<meta property="og:title" content="MISCARCHIVE">
+<meta property="og:title" content="Digital Marketing Company in Trivandrum | Seo Services in Trivandrum">
 <meta property="og:type" content="website">
 <meta property="og:url" content="">
 
-<!-- TWITTER META -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@SREATIVE">
-<meta name="twitter:creator" content="@SREATIVE">
-<meta name="twitter:title" content="SREATIVE">
-<meta name="twitter:description" content="SREATIVE | Digital Agency">
-<meta name="twitter:image" content="http://www.themezinho.net/sreative/preview.png">
+
 
 <!-- FAVICON FILES -->
 <link href="" rel="apple-touch-icon-precomposed" sizes="144x144">
