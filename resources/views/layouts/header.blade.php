@@ -7,7 +7,8 @@
 <title>Digital Marketing Company in Trivandrum | Seo Services in Trivandrum</title>
 <meta name="author" content="Miscarchive">
 <meta name="description" content="Best Digital Marketing Company in Trivandrum. Misc Archive Provide Best Website Development Company in Trivandrum and Social Media Marketing | Google Ads">
-<meta name="keywords" content="html, template, carousel, theme, themezinho, agency, html5">
+<meta name="keywords" content="Digital marketing agency in trivandrum, best digital marketing company in trivandrum, digital marketing services
+digital marketing company in Kerala">
 <meta name="title" content="Digital Marketing Company in Trivandrum | Seo Services in Trivandrum">
 
 <!-- SOCIAL MEDIA META -->
