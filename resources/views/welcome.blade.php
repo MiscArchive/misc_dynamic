@@ -61,9 +61,11 @@
         <div class="col-md-6 right-side">
           <div class="table wow fadeInUp">
             <div class="inner">
-              <h3>ABOUT <span>MiscArchive</span></h3>
-              <p>Our goal is to emerge as the first and excellent choice for enterprise-wide solutions as a Branding agency and a poadcasting partner in Trivandrum with our team of closely-knit yet enthusiastic individuals.</p>
-              <p> At MiscArchive, we provide high-quality or innovative value-added solutions within the domains of digital marketing services, Web Designing, Web development, Social Media management, and other comparable miscellaneous services. We assist our clients through expert-level ideation, comprehensive project execution, seamless work experience, easy interactive team collaboration, and overall team transparency for absolutely everyone involved.</p>
+              <h3> <span>What makes us a team?</span></h3>
+              <p>Misc Archive is the Best Digital Marketing Company In Trivandrum. We specialise in creating custom marketing solutions for brands and businesses in India and throughout the world.
+                By skilfully fusing the 3 C’s of marketing-Customer, Company, Competitor- with the influence of the web, social media marketing, and mobile technology, our team enables our clients to realise their full potential.
+                </p>
+              {{-- <p> At MiscArchive, we provide high-quality or innovative value-added solutions within the domains of digital marketing services, Web Designing, Web development, Social Media management, and other comparable miscellaneous services. We assist our clients through expert-level ideation, comprehensive project execution, seamless work experience, easy interactive team collaboration, and overall team transparency for absolutely everyone involved.</p> --}}
               <a href="{{route('about')}}">READ MORE</a> </div>
             <!-- end inner --> 
           </div>
@@ -155,12 +157,13 @@
   <section class="services">
     <div class="container wow fadeInUp">
       <div class="row">
+        <a  href="{{route('service')}}">
         <div class="col-md-3 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/dm.png')}}" alt="Image">
-                <h4>Branding & Digital Marketing</h4>
-                <p>Misc Archive is a leading Digital Marketing Company in Trivandrum. We're dedicated to helping you shape your brand identity and elevate your impact in the world through branding.Graphic design is the centre of attraction for any business. We at Misc Archive create unique graphic designs that help improve your business's online visibility. </p>
+                <h4>Branding </h4>
+                <p>Misc Archive is a leading Digital Marketing Company in Trivandrum. We're dedicated to helping you shape your brand identity and elevate your impact in the world through branding. <br><br> </p>
                 
                 <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a> </div>
               <!-- end inner --> 
@@ -168,14 +171,15 @@
             <!-- end table --> 
           </div>
           <!-- end box --> 
-        </div>
+        </div></a>
         <!-- end col-3 -->
+        <a  href="{{route('service')}}">
         <div class="col-md-3 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
-                <h4>Web & Mobile App Development</h4>
-                <p>Misc Archive is one of the finest web development companies in Trivandrum. We're passionate about turning your online presence into a masterpiece. A custom-built website is our main attraction.we're dedicated to turning your app vision into a reality that exceeds expectations.<br><br>  </p>
+                <h4>Web  Development</h4>
+                <p>Misc Archive is one of the finest web development companies in Trivandrum. We're passionate about turning your online presence into a masterpiece. A custom-built website is our main attraction.</p>
                 
                 <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a></div>
               <!-- end inner --> 
@@ -184,13 +188,15 @@
           </div>
           <!-- end box --> 
         </div>
+      </a>
         <!-- end col-3 -->
+        <a  href="{{route('service')}}">
         <div class="col-md-3 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/mic.png')}}" alt="Image">
-                <h4>Podcast</h4>
-                <p>At Misc Archive, we're your best podcast company in Trivandrum for discovering, creating, and sharing the fascinating world of voices.<br><br> <br><br> <br><br> <br> </p>
+                <h4>Audible</h4>
+                <p>Misc Archive offers a creative hub where sounds and technology collide. The music studio serves as a refuge for both audiophiles and artists. <br><br><br></p>
                
                 <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a> </div>
               <!-- end inner --> 
@@ -198,25 +204,93 @@
             <!-- end table --> 
           </div>
           <!-- end box --> 
-        </div>
+        </div></a>
         <!-- end col-3 -->
+        <a  href="{{route('service')}}">
         <div class="col-md-3 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/branding.png')}}" alt="Image">
                 <h4>Event Managment</h4>
-                <p>We are the best event management company in Trivandrum from planning to organising, and executing a wide range of events. Corporate conferences, brand launches, music concerts to trade exhibitions etc. <br><br> <br><br> <br> </p>
+                <p>We are the best event management company in Trivandrum from planning to organising, and executing a wide range of events. Corporate conferences, brand launches, music concerts to trade exhibitions etc.  </p>
   
-                <span class="expand btn4">EXPAND</span> </div>
+                <a  href="{{route('service')}}"><span class="expand btn4">EXPAND</span></a> </div>
               <!-- end inner --> 
             </div>
             <!-- end table --> 
           </div>
           <!-- end box --> 
-        </div>
+        </div></a>
         <!-- end col-3 --> 
       </div>
       <!-- end row --> 
+
+      <div class="row">
+        <a  href="{{route('service')}}"><div class="col-md-3 no-padding">
+          <div class="box yellow-bg">
+            <div class="table">
+              <div class="inner"> <img src="{{asset('assets/images/dm.png')}}" alt="Image">
+                <h4>Digital Marketing</h4>
+                <p>Misc Archive is the best digital marketing company in Trivandrum. In a world driven by data, innovation, and connectivity, the key to your business success lies in digital marketing.<br><br></p>
+                
+                <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a> </div>
+              <!-- end inner --> 
+            </div>
+            <!-- end table --> 
+          </div>
+          <!-- end box --> 
+        </div></a>
+        <!-- end col-3 -->
+        <a  href="{{route('service')}}">
+        <div class="col-md-3 no-padding">
+          <div class="box yellow-bg">
+            <div class="table">
+              <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
+                <h4>Mobile App Development</h4>
+                <p>At Misc Archive, we're dedicated to turning your app vision into a reality that exceeds expectations. With an experienced web development team, we're here to satisfy our customers' needs. </p>
+                
+                <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a></div>
+              <!-- end inner --> 
+            </div>
+            <!-- end table --> 
+          </div>
+          <!-- end box --> 
+        </div></a>
+        <!-- end col-3 -->
+        <a  href="{{route('service')}}">
+        <div class="col-md-3 no-padding">
+          <div class="box yellow-bg">
+            <div class="table">
+              <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
+                <h4>Graphic Designing</h4>
+                <p>Graphic design is the centre of attraction for any business. We at Misc Archive create unique graphic designs that help improve your business's online visibility. <br><br></p>
+               
+                <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a> </div>
+              <!-- end inner --> 
+            </div>
+            <!-- end table --> 
+          </div>
+          <!-- end box --> 
+        </div></a>
+        <!-- end col-3 -->
+        <a  href="{{route('service')}}">
+        <div class="col-md-3 no-padding">
+          <div class="box yellow-bg">
+            <div class="table">
+              <div class="inner"> <img src="{{asset('assets/images/ai.png')}}" alt="Image">
+                <h4>RPA / AI</h4>
+                <p>We provide maintenance and support for the RPA and AI solutions,Along with the training we provide to the client's employees on how to use and interact with the RPA and AI solutions. <br><br> </p>
+  
+                <a  href="{{route('service')}}"><span class="expand btn4">EXPAND</span></a> </div>
+              <!-- end inner --> 
+            </div>
+            <!-- end table --> 
+          </div>
+          <!-- end box --> 
+        </div></a>
+        <!-- end col-3 --> 
+      </div>
+      <!-- end row -->
     </div>
     <!-- end container --> 
   </section>
