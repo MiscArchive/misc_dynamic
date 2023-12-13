@@ -305,7 +305,7 @@
         
         <div class="col-xs-12">
 
-          <h3><span>Digital marketing is crucial for many reasons and Drawbacks of not having a digital marketing team</span></h3
+          <h3><span>Digital marketing is crucial for many reasons !</span></h3
       </div>
       <!-- end col-12 -->
       <div class="col-md-12">
@@ -315,35 +315,56 @@
               <p>
                 <h4>Digital marketing is crucial for many reasons:</h4>
 
-                Diverse Skill Set: Digital marketing encompasses various aspects like SEO, social media, content creation, PPC advertising, email marketing, and more. A team can bring together individuals with specialized skills in each of these areas.
+                <h5>Diverse Skill Set:</h5> Digital marketing encompasses various aspects like SEO, social media, content creation, PPC advertising, email marketing, and more. A team can bring together individuals with specialized skills in each of these areas.
                 <br>
-                Strategy Development: A team can collaborate to create a comprehensive digital marketing strategy tailored to your company's goals and target audience.
+                <h5>Strategy Development:</h5> A team can collaborate to create a comprehensive digital marketing strategy tailored to your company's goals and target audience.
                 <br>
-                Workload Distribution: Digital marketing involves ongoing tasks. A team can distribute the workload effectively, ensuring consistent and timely execution.
+                <h5> Workload Distribution:</h5> Digital marketing involves ongoing tasks. A team can distribute the workload effectively, ensuring consistent and timely execution.
                 <br>
-                Adaptation and Innovation: The digital landscape is ever-evolving. A team can stay updated on industry trends, algorithms, and emerging platforms, allowing your company to adapt and innovate accordingly.
+                <h5> Adaptation and Innovation:</h5> The digital landscape is ever-evolving. A team can stay updated on industry trends, algorithms, and emerging platforms, allowing your company to adapt and innovate accordingly.
                 <br>
-                Creative Input: Different team members can provide fresh perspectives and creative ideas, enhancing the quality of campaigns and content.
+                <h5>Creative Input:</h5> Different team members can provide fresh perspectives and creative ideas, enhancing the quality of campaigns and content.
                 <br>
-                Data Analysis: A team can collectively analyse data and metrics, helping your company make data-driven decisions to optimize marketing efforts.
+                <h5>Data Analysis:</h5> A team can collectively analyse data and metrics, helping your company make data-driven decisions to optimize marketing efforts.
                 
-          <h4> Drawbacks of not having a digital marketing team</h4>
-                
-                Limited Expertise: Without dedicated professionals, you may lack the in-depth expertise needed for various aspects of digital marketing like SEO, SEM, analytics, etc., potentially leading to sub optimal results.
-                <br>
-                Inconsistent Execution: The absence of a dedicated team may result in irregular or inconsistent execution of digital marketing strategies, hindering the effectiveness and impact of your efforts.
-                <br>
-                Overwhelming Workload: Handling all digital marketing responsibilities alone can overwhelm you, impacting your ability to manage other essential aspects of your business effectively.
-                
-                Time Constraints: Digital marketing requires time and effort. Without a team, you might struggle to balance marketing tasks with other operational and managerial responsibilities.
-                <br>
-                Difficulty Keeping Up with Trends: Staying updated with the fast-paced changes in digital marketing trends can be challenging for a single person, potentially causing your strategies to become outdated.
-                <br>
-                Lack of Collaboration and Innovation: Collaborative brainstorming and innovative ideas are often fostered in a team environment. Without a team, you may miss out on creative solutions and fresh perspectives.
+          
                 
                 </p>
               
           </div>
+
+                 
+        <div class="col-xs-12">
+
+          <h3><span>Drawbacks of not having a digital marketing team !</span></h3
+      </div>
+      <!-- end col-12 -->
+      <div class="col-md-12">
+          <div class="news-box">
+          
+              <!-- <small>Photography, Design, Tutorials</small> -->
+              <p>
+                
+          <h4> Drawbacks of not having a digital marketing team</h4>
+                
+          <h5>Limited Expertise:</h5> Without dedicated professionals, you may lack the in-depth expertise needed for various aspects of digital marketing like SEO, SEM, analytics, etc., potentially leading to sub optimal results.
+                <br>
+                <h5>Inconsistent Execution: </h5>The absence of a dedicated team may result in irregular or inconsistent execution of digital marketing strategies, hindering the effectiveness and impact of your efforts.
+                <br>
+                <h5>Overwhelming Workload:</h5> Handling all digital marketing responsibilities alone can overwhelm you, impacting your ability to manage other essential aspects of your business effectively.
+                
+                <h5>Time Constraints: </h5>Digital marketing requires time and effort. Without a team, you might struggle to balance marketing tasks with other operational and managerial responsibilities.
+                <br>
+                <h5>Difficulty Keeping Up with Trends: </h5>Staying updated with the fast-paced changes in digital marketing trends can be challenging for a single person, potentially causing your strategies to become outdated.
+                <br>
+                <h5>Lack of Collaboration and Innovation: </h5>Collaborative brainstorming and innovative ideas are often fostered in a team environment. Without a team, you may miss out on creative solutions and fresh perspectives.
+                
+                </p>
+              
+          </div>
+
+
+
           <div class="col-xs-12">
 
               <h3><span>Why Choose Miscarchive for Your Digital Marketing Needs?</span></h3
