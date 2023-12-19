@@ -101,9 +101,7 @@
                         <figure><img src="{{ asset('assets/images/C L 05.webp') }}" alt="Image"></figure>
                     </div>
                     <!-- end item -->
-                    <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 07.webp') }}" alt="Image"></figure>
-                    </div>
+              
                     <!-- end item -->
                     <div class="item">
                         <figure><img src="{{ asset('assets/images/bulletclub.png') }}" alt="Image"></figure>
