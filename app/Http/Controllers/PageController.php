@@ -85,6 +85,7 @@ class PageController extends Controller
         $enquiry->name = $request->name;
         $enquiry->email = $request->email;
         $enquiry->phone = $request->phone;
+        $enquiry->service = 'null';
         $enquiry->subject = $request->subject;
         $enquiry->message = $request->message;
         $enquiry->save();
