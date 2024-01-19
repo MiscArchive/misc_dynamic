@@ -19,8 +19,7 @@
         <address class="wow fadeInUp">
         <h3>MAIN OFFICE</h3>
         <!-- <h5>You are always welcome to stop by and say hello !</h5> -->
-        <p>Rohini MRA E34
-          Maruthamkuzhi, kanjirampara Sasthamangalam,
+        <p>Second Floor, Upasana Building, Kowdiar Ave, opposite Income Tax Office, P.O, Kowdiar
           <br>
           TVM KERALA, INDIA</p>
         <p>PHONE:
