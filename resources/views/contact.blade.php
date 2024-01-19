@@ -21,7 +21,7 @@
         <!-- <h5>You are always welcome to stop by and say hello !</h5> -->
         <p>Second Floor, Upasana Building, Kowdiar Ave, opposite Income Tax Office, P.O, Kowdiar
           <br>
-          TVM KERALA, INDIA</p>
+          Thiruvananthapuram, Kerala 695003</p>
         <p>PHONE:
           +91 6282721984 <BR>
           +91 8907634900
