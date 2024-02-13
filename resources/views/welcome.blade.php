@@ -153,7 +153,7 @@
                     <div class="item">
                       <figure><img src="{{ asset('assets/images/lemonsole_final.jpg') }}" alt="Image"></figure>
                   </div>
-                  <!-- end item -->
+                  
                   <div class="item">
                     <figure><img src="{{ asset('assets/images/wisdom.jpg') }}" alt="Image"></figure>
                 </div>
