@@ -142,7 +142,7 @@
                     <div class="item">
                         <figure><img src="{{ asset('assets/images/JSM.png') }}" alt="Image"></figure>
                     </div>
-                    <!-- end item -->
+                   
                     
 
 
