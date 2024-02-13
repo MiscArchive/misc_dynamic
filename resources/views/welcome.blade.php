@@ -189,7 +189,7 @@
   <div class="item">
     <figure><img src="{{ asset('assets/images/miscaudiable.jpg') }}" alt="Image"></figure>
 </div>
-<!-- end item -->
+
     
               
 
