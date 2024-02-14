@@ -152,43 +152,43 @@
                     {{-- new logos --}}
                     <div class="item">
                       <figure><img src="{{ asset('assets/images/lemonsole_final.jpg') }}" alt="Image"></figure>
-                  </div>
+                    </div>
                   
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/wisdom.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/BW.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/kompeterzen.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/nanoos_final.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/shanines.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/swarasaakhi.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <!-- end item -->
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/math.jpg') }}" alt="Image"></figure>
+                    </div>
+                    
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/ananthapuri.jpg') }}" alt="Image"></figure>
+                  </div>
+        
                   <div class="item">
-                    <figure><img src="{{ asset('assets/images/wisdom.jpg') }}" alt="Image"></figure>
-                </div>
-                <!-- end item -->
-                <div class="item">
-                  <figure><img src="{{ asset('assets/images/BW.jpg') }}" alt="Image"></figure>
-              </div>
-              <!-- end item -->
-              <div class="item">
-                <figure><img src="{{ asset('assets/images/kompeterzen.jpg') }}" alt="Image"></figure>
-            </div>
-            <!-- end item -->
-            <div class="item">
-              <figure><img src="{{ asset('assets/images/nanoos_final.jpg') }}" alt="Image"></figure>
-          </div>
-          <!-- end item -->
-          <div class="item">
-            <figure><img src="{{ asset('assets/images/shanines.jpg') }}" alt="Image"></figure>
-        </div>
-        <!-- end item -->
-        <div class="item">
-          <figure><img src="{{ asset('assets/images/swarasaakhi.jpg') }}" alt="Image"></figure>
-      </div>
-      <!-- end item -->
-      <div class="item">
-        <figure><img src="{{ asset('assets/images/math.jpg') }}" alt="Image"></figure>
-    </div>
-    
-    <div class="item">
-      <figure><img src="{{ asset('assets/images/ananthapuri.jpg') }}" alt="Image"></figure>
-  </div>
-  
-  <div class="item">
-    <figure><img src="{{ asset('assets/images/miscaudiable.jpg') }}" alt="Image"></figure>
-</div>
+                    <figure><img src="{{ asset('assets/images/miscaudiable.jpg') }}" alt="Image"></figure>
+                  </div>
 
     
               
