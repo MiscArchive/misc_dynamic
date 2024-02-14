@@ -226,6 +226,7 @@
         <!-- end row -->
     </div>
     <!-- end container -->
+{{-- new section --}}
 </section>
   <section class="services">
     <div class="container wow fadeInUp">
