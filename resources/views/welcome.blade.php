@@ -111,9 +111,7 @@
                         <figure><img src="{{ asset('assets/images/bm.png') }}" alt="Image"></figure>
                     </div>
                     <!-- end item -->
-                    <div class="item">
-                        <figure><img src="{{ asset('assets/images/cs.png') }}" alt="Image"></figure>
-                    </div>
+
                     <!-- end item -->
 
                     <div class="item">
@@ -122,26 +120,18 @@
                     <!-- end item -->
 
                 
-                    <div class="item">
-                        <figure><img src="{{ asset('assets/images/navaka.png') }}" alt="Image"></figure>
-                    </div>
+                    
                     <!-- end item -->
 
                     <div class="item">
                         <figure><img src="{{ asset('assets/images/pounchik.png') }}" alt="Image"></figure>
                     </div>
                     <!-- end item -->
-                    <div class="item">
-                        <figure><img src="{{ asset('assets/images/rainbo.png') }}" alt="Image"></figure>
-                    </div>
+                    
                     <!-- end item -->
-                    <div class="item">
-                        <figure><img src="{{ asset('assets/images/rrv.png') }}" alt="Image"></figure>
-                    </div>
+                   
                     <!-- end item -->
-                    <div class="item">
-                        <figure><img src="{{ asset('assets/images/JSM.png') }}" alt="Image"></figure>
-                    </div>
+                    
                    
                     
 
@@ -158,9 +148,7 @@
                       <figure><img src="{{ asset('assets/images/wisdom.jpg') }}" alt="Image"></figure>
                     </div>
                     <!-- end item -->
-                    <div class="item">
-                      <figure><img src="{{ asset('assets/images/BW.jpg') }}" alt="Image"></figure>
-                    </div>
+                    
                     <!-- end item -->
                     <div class="item">
                       <figure><img src="{{ asset('assets/images/kompeterzen.jpg') }}" alt="Image"></figure>
@@ -170,9 +158,7 @@
                       <figure><img src="{{ asset('assets/images/nanoos_final.jpg') }}" alt="Image"></figure>
                     </div>
                     <!-- end item -->
-                    <div class="item">
-                      <figure><img src="{{ asset('assets/images/shanines.jpg') }}" alt="Image"></figure>
-                    </div>
+                  
                     <!-- end item -->
                     <div class="item">
                       <figure><img src="{{ asset('assets/images/swarasaakhi.jpg') }}" alt="Image"></figure>
@@ -184,13 +170,43 @@
                     
                     <div class="item">
                       <figure><img src="{{ asset('assets/images/ananthapuri.jpg') }}" alt="Image"></figure>
-                  </div>
+                    </div>
         
-                  <div class="item">
-                    <figure><img src="{{ asset('assets/images/miscaudiable.jpg') }}" alt="Image"></figure>
-                  </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/miscaudiable.jpg') }}" alt="Image"></figure>
+                    </div>
 
-    
+                    
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/misc web logos-01.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/misc web logos-02.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/misc web logos-03.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/misc web logos-04.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/misc web logos-05.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/misc web logos-06.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/misc web logos-07.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/misc web logos-08.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/misc web logos-09.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/misc web logos-10.jpg') }}" alt="Image"></figure>
+                    </div>
               
 
 
