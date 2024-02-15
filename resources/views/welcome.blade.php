@@ -83,6 +83,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2>LOGOS</h2>
+
                 <div class="logos-carousel">
                     <div class="item">
                         <figure><img src="{{ asset('assets/images/C L 01.webp') }}" alt="Image"></figure>
@@ -119,26 +120,13 @@
                     </div>
                     <!-- end item -->
 
-                
-                    
                     <!-- end item -->
 
                     <div class="item">
                         <figure><img src="{{ asset('assets/images/pounchik.png') }}" alt="Image"></figure>
                     </div>
                     <!-- end item -->
-                    
-                    <!-- end item -->
-                   
-                    <!-- end item -->
-                    
-                   
-                    
-
-
-
-
-
+                  
                     {{-- new logos --}}
                     <div class="item">
                       <figure><img src="{{ asset('assets/images/lemonsole_final.jpg') }}" alt="Image"></figure>
@@ -207,16 +195,6 @@
                     <div class="item">
                       <figure><img src="{{ asset('assets/images/misc web logos-10.jpg') }}" alt="Image"></figure>
                     </div>
-              
-
-
-
-
-
-
-
-
-
 
                 </div>
                 <!-- end logos-carousel -->
