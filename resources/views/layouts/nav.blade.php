@@ -1,5 +1,6 @@
 <header class="yellow-bg int-header">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav">
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav">
+
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse"

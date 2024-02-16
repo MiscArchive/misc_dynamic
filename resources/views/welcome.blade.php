@@ -6,9 +6,9 @@
     <div class="banner">
         <div id="rev_slider_35_1" class="rev_slider fullwidthabanner">
             <ul>
-                <li data-transition="scaledownfromtop" data-masterspeed="700"> <img class="img-fluid" alt="Responsive image"
+                <li data-transition="scaledownfromtop" data-masterspeed="700"> <img class="img-fluid rev-slidebg" alt="Responsive image"
                         src="{{asset('assets/images/HOMEPAGE.webp')}}"  data-bgposition="center center" data-bgfit="cover"
-                        data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        data-bgrepeat="no-repeat" data-no-retina>
                     <div class="tp-caption lfb ltt tp-resizeme start" data-x="center" data-hoffset="0" data-y="center"
                         data-voffset="0" data-speed="600" data-start="400" data-easing="Power4.easeOut"
                         data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
@@ -357,7 +357,7 @@
         
         <div class="col-xs-12">
 
-          <h3><span>Digital marketing is crucial for many reasons !</span></h3
+          <h3><span>Digital marketing is crucial for many reasons !</span></h3>
       </div>
       <!-- end col-12 -->
       <div class="col-md-12">
@@ -388,7 +388,7 @@
                  
         <div class="col-xs-12">
 
-          <h3><span>Drawbacks of not having a digital marketing team !</span></h3
+          <h3><span>Drawbacks of not having a digital marketing team !</span></h3>
       </div>
       <!-- end col-12 -->
       <div class="col-md-12">
@@ -419,7 +419,7 @@
 
           <div class="col-xs-12">
 
-              <h3><span>Why Choose Miscarchive for Your Digital Marketing Needs?</span></h3
+              <h3><span>Why Choose Miscarchive for Your Digital Marketing Needs?</span></h3>
           </div>
           <!-- end col-12 -->
           <div class="col-md-12">
@@ -467,8 +467,8 @@
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-xs-12">
->
-                <h3>Latest <span>Blogs</span></h3
+
+                <h3>Latest <span>Blogs</span></h3>
             </div>
             <!-- end col-12 -->
             <div class="col-md-6">
