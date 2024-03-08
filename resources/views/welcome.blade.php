@@ -32,8 +32,8 @@
      data-bgrepeat="no-repeat" data-no-retina>
 
      <img class="img-fluid2 rev-slidebg" alt="Responsive image"
-     src="{{ asset('assets/images/hero2.jpg') }}"
-     style="width: 100vw; height: 100vh; object-fit: cover; object-position: center center;"
+     src="{{ asset('assets/images/MISC-PHONE-BANNER3.jpg') }}"
+     style="width: 100vw; height: 100vh; object-fit: cover; object-position: center center;display:no"
      data-bgposition="center center" data-bgfit="cover"
      data-bgrepeat="no-repeat" data-no-retina>
 
