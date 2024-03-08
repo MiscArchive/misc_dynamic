@@ -4,7 +4,7 @@
 @section('content')
   <!-- end nav -->
     <div class="banner">
-        <div id="rev_slider_35_1" class="rev_slider fullwidthabanner">
+      {{--   <div id="rev_slider_35_1" class="rev_slider fullwidthabanner">
             <ul>
                 <li data-transition="scaledownfromtop" data-masterspeed="700"> <img class="img-fluid rev-slidebg" alt="Responsive image"
                         src="{{asset('assets/images/HOMEPAGE.webp')}}"  data-bgposition="center center" data-bgfit="cover"
@@ -14,38 +14,30 @@
                         data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
                         data-endspeed="500" data-endeasing="Power4.easeIn">
                         <div class="slide-content">
-                            {{-- <h2><b>Complete Solutions <BR>From This Time Forth.</b></h2>
-                            <h5>Every Problem has a Solution and We have one for You !</h5>
-                            <div class="clearfix">
-                                <a href="#">GET STARTED</a>
-                            </div>
-                            <img src="{{ asset('assets/images/mouse.png')}}" alt="Image" class="icon"> --}}
+                            
                         </div>
                     </div>
                 </li>
-                <!-- end banner 1 -->
-                {{-- <li data-transition="scaledownfromtop" data-masterspeed="700"> <img class="responsive"
-                        src="{{asset('assets/images/HOME2.gif')}}" alt="Image" data-bgposition="center center" data-bgfit="cover"
-                        data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <div class="tp-caption lfb ltt tp-resizeme start" data-x="center" data-hoffset="0" data-y="center"
-                        data-voffset="0" data-speed="600" data-start="400" data-easing="Power4.easeOut"
-                        data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-                        data-endspeed="500" data-endeasing="Power4.easeIn">
-                        <div class="slide-content">
-                            <h2><b>Complete Solutions <BR>From This Time Forth.</b></h2>
-                            <h5>Every Problem has a Solution and We have one for You !</h5>
-                            <div class="clearfix">
-                                <a href="#">GET STARTED</a>
-                            </div>
-                            <img src="{{ asset('assets/images/mouse.png')}}" alt="Image" class="icon">
-                        </div>
-                    </div>
-                </li> --}}
-                <!-- end banner 2 -->
+                
             </ul>
-            <!-- end ul -->
-        </div>
+            
+        </div> --}}
         <!-- end rev_slider -->
+
+        
+        <img class="img-fluid rev-slidebg" alt="Responsive image"
+     src="{{ asset('assets/images/MISC-BANNER.jpg') }}"
+     style="width: 100vw; height: 100vh; object-fit: cover; object-position: center center;"
+     data-bgposition="center center" data-bgfit="cover"
+     data-bgrepeat="no-repeat" data-no-retina>
+
+     <img class="img-fluid2 rev-slidebg" alt="Responsive image"
+     src="{{ asset('assets/images/hero2.jpg') }}"
+     style="width: 100vw; height: 100vh; object-fit: cover; object-position: center center;"
+     data-bgposition="center center" data-bgfit="cover"
+     data-bgrepeat="no-repeat" data-no-retina>
+
+     
     </div>
     <!-- end banner -->
 {{-- </header> --}}

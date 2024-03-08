@@ -1356,6 +1356,7 @@ zoom: 1;
   border-radius: 100%;
   -webkit-animation: tp-scaleout 1.0s infinite ease-in-out;
   animation: tp-scaleout 1.0s infinite ease-in-out;
+  display: none;
 }
 
 @-webkit-keyframes tp-scaleout {
