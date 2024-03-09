@@ -199,7 +199,7 @@
 {{-- new section --}}
 </section>
   <section class="services">
-    <div class="container-fluid wow fadeInUp ">
+    <div class="container wow fadeInUp">
       <div class="row">
         <a  href="{{route('service')}}">
         <div class="col-md-3 no-padding">
