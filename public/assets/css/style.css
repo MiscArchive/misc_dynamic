@@ -339,6 +339,21 @@ header video{min-width:100%; min-height:100%; transform: scale(1.3); float:left;
 .services .box:hover { box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
 
 
+.service{ width:100%; float:left; padding:100px 0;}
+.service .box{ width:100%; padding:40px 20px; position:relative; height: 615px;padding: 10px;}
+.service *{-moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease;}
+
+.service .box:hover a {text-decoration: none;}
+.service .box img{ height:80px; display:inline-block; margin-bottom:20px;}
+.service .box h4{ font-weight:700; color:#fff; margin-bottom:25px;}
+.service .box p{ color:#fff; line-height:22px; font-weight:500;}
+.service .box .expand{ width:70px; height:75px; float:left; text-indent:-9999px; background:url(../images/icon-expand.png) top left no-repeat; background-size:cover; position:absolute; right:0; bottom:0;}
+.service .box ul{ height:0; overflow:hidden;}
+.service .box ul li{ width:100%; float:left; color:#fff; font-weight:700; margin:3px 0;}
+.service .box ul.show-me{ height:auto;}
+.service .box:hover { box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+
 /* TEAM MEMBERS*/
 .team-members{ width:100%; float:left; padding:100px 0;}
 .team-members *{-moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease;}
@@ -575,7 +590,7 @@ footer  form button[type="submit"]{  height:54px; border:none; background:#00cad
 }
 
 
-@media only screen and (max-width: 1500px), only screen and (max-device-width: 1500px) {
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
 	
 .navbar-default .navbar-brand img{ height:18px;}
 .navbar-default .nav>li>a{ padding:30px 10px;}
@@ -601,7 +616,7 @@ footer  form button[type="submit"]{  height:54px; border:none; background:#00cad
   }
 
 }
-@media only screen and (min-width: 1500px) and (max-device-width: 2500px) {
+@media only screen and (min-width: 1200px) and (max-device-width: 8000px) {
     .img-fluid2 {
         display: none;
     }
@@ -637,4 +652,5 @@ header .slide-content h5{ font-size:12px;}
 .no-padding{
 	margin-bottom: 30px;
 }
+
 

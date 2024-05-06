@@ -76,7 +76,7 @@
             <div class="col-xs-12">
                 <h2>LOGOS</h2>
 
-                <div class="logos-carousel">
+                <div class="logos-carousel container">
                     <div class="item">
                         <figure><img src="{{ asset('assets/images/C L 01.webp') }}" alt="Image"></figure>
                     </div>
@@ -187,6 +187,12 @@
                     <div class="item">
                       <figure><img src="{{ asset('assets/images/misc web logos-10.jpg') }}" alt="Image"></figure>
                     </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/ssnss.jpg') }}" alt="Image"></figure>
+                    </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/flyers.jpg') }}" alt="Image"></figure>
+                    </div>
 
                 </div>
                 <!-- end logos-carousel -->
@@ -199,7 +205,7 @@
 {{-- new section --}}
 </section>
   <section class="services">
-    <div class="container wow fadeInUp">
+    <div class="container-fluid wow fadeInUp">
       <div class="row">
         <a  href="{{route('service')}}">
         <div class="col-md-3 no-padding">

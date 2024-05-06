@@ -12,7 +12,7 @@
     </div>
 </div>
 </header>
-<section class="services">
+<section class="service">
 <div class="container">
 <div class="row wow fadeInUp">
   <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
