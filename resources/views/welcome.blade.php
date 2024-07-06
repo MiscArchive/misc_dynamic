@@ -26,7 +26,7 @@
 
         
         <img class="img-fluid rev-slidebg" alt="Responsive image"
-     src="{{ asset('assets/images/MISC-BANNER.jpg') }}"
+     src="{{ asset('assets/images/Bannermisc.jpg') }}"
      style="width: 100vw; height: 100vh; object-fit: cover; object-position: center center;"
      data-bgposition="center center" data-bgfit="cover"
      data-bgrepeat="no-repeat" data-no-retina>
