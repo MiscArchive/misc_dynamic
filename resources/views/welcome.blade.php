@@ -76,122 +76,128 @@
             <div class="col-xs-12">
                 <h2>LOGOS</h2>
 
-                <div class="logos-carousel container">
+                <div class="logos-carousel container-fluid">
+                      <div class="item">
+                        <figure><img src="{{ asset('assets/images/promag-logo.png') }}" alt="Image" style="width:70%"></figure>
+                    </div>
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 01.webp') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/icatch-logo.png') }}" alt="Image" style="width:70%"></figure>
+                  </div>
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/C L 01.webp') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 02.webp') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/C L 02.webp') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 03.webp') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/C L 03.webp') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                    
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 05.webp') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/C L 05.webp') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
               
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/bulletclub.png') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/bulletclub.png') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/bm.png') }}" alt="Image"></figure>
-                    </div>
-                    <!-- end item -->
-
-                    <!-- end item -->
-
-                    <div class="item">
-                        <figure><img src="{{ asset('assets/images/jsml.png') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/bm.png') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
 
                     <!-- end item -->
 
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/pounchik.png') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/jsml.png') }}" alt="Image" style="width:70%"></figure>
+                    </div>
+                    <!-- end item -->
+
+                    <!-- end item -->
+
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/pounchik.png') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                   
                     {{-- new logos --}}
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/lemonsole_final.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/lemonsole_final.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                   
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/wisdom.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/wisdom.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/kompeterzen.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/kompeterzen.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/nanoos_final.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/nanoos_final.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                   
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/swarasaakhi.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/swarasaakhi.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/math.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/math.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/ananthapuri.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/ananthapuri.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
         
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/miscaudiable.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/miscaudiable.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
 
                     
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-01.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-01.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-02.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-02.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-03.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-03.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-04.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-04.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-05.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-05.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-06.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-06.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-07.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-07.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-08.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-08.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-09.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-09.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-10.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-10.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/ssnss.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/ssnss.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/flyers.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/flyers.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
 
                 </div>
@@ -205,10 +211,14 @@
 {{-- new section --}}
 </section>
   <section class="services">
+            <div class="col-xs-12 mb-5">
+          <h3 style="text-align: center;color:#febd0e;font-size: 30px;font-weight: 700;"><span>Our Services</span></h3>
+      </div>
     <div class="container-fluid wow fadeInUp">
+
       <div class="row">
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/dm.png')}}" alt="Image">
@@ -224,7 +234,7 @@
         </div></a>
         <!-- end col-3 -->
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
@@ -241,7 +251,7 @@
       </a>
         <!-- end col-3 -->
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/mic.png')}}" alt="Image">
@@ -257,7 +267,7 @@
         </div></a>
         <!-- end col-3 -->
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/branding.png')}}" alt="Image">
@@ -272,11 +282,8 @@
           <!-- end box --> 
         </div></a>
         <!-- end col-3 --> 
-      </div>
-      <!-- end row --> 
 
-      <div class="row">
-        <a  href="{{route('service')}}"><div class="col-md-3 no-padding">
+        <a  href="{{route('service')}}"><div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/dm.png')}}" alt="Image">
@@ -292,7 +299,7 @@
         </div></a>
         <!-- end col-3 -->
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
@@ -308,7 +315,7 @@
         </div></a>
         <!-- end col-3 -->
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
@@ -324,7 +331,7 @@
         </div></a>
         <!-- end col-3 -->
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/ai.png')}}" alt="Image">
@@ -339,8 +346,29 @@
           <!-- end box --> 
         </div></a>
         <!-- end col-3 --> 
+        <a  href="{{route('service')}}">
+          <div class="col-md-4 no-padding">
+            <div class="box yellow-bg">
+              <div class="table">
+                <div class="inner"> <img src="{{asset('assets/images/ai.png')}}" alt="Image">
+                  <h4>Property Listing</h4>
+                  <p> we specialize in connecting you with your ideal property. Our comprehensive property listing service offers a curated selection of residential and commercial real estate tailored to meet your unique needs <br><br> </p>
+    
+                  <a  href="{{route('service')}}"><span class="expand btn4">EXPAND</span></a> </div>
+                <!-- end inner --> 
+              </div>
+              <!-- end table --> 
+            </div>
+            <!-- end box --> 
+          </div></a>
+          <!-- end col-3 --> 
       </div>
-      <!-- end row -->
+      <!-- end row --> 
+
+
+
+        
+
     </div>
     <!-- end container --> 
   </section>
