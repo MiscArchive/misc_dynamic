@@ -28,7 +28,7 @@ Route::get('career', [PageController::class, 'career'])->name('career');
 Route::get('ai-rpa', [PageController::class, 'ai_rpa'])->name('ai-rpa');
 Route::get('smm', [PageController::class, 'smm'])->name('smm');
 Route::get('dmn', [PageController::class, 'dmn'])->name('dmn');
-Route::get('seo', [PageController::class, 'seo'])->name('seo');
+
 Route::get('ppc', [PageController::class, 'ppc'])->name('ppc');
 Route::post('enquiry', [PageController::class, 'enquiry'])->name('enquiry');
 Route::post('contactform', [PageController::class, 'contactform'])->name('contactform');
@@ -41,6 +41,14 @@ Route::post('login', [LoginController::class, 'authenticate'])->name('login');
 Route::get('admin/register', [LoginController::class, 'register'])->name('register');
 Route::get('admin/signin', [LoginController::class, 'signin'])->name('signin');
 Route::post('/signup', [LoginController::class, 'signup'])->name('signup');
+
+Route::get('service/digital-marketing', [PageController::class, 'digitalMarketing'])->name('digital-marketing');
+Route::get('service/seo', [PageController::class, 'seo'])->name('seo');
+Route::get('service/web-development', [PageController::class, 'webDevelopment'])->name('web-development');
+Route::get('service/google-ads', [PageController::class, 'GoogleAds'])->name('google-ads');
+Route::get('service/graphics-designing', [PageController::class, 'graphicsDesigning'])->name('GraphicsDesigning');
+
+
 
 // Wisdom routes
 Route::middleware(['role:wisdom', 'auth'])->group(function () {

@@ -63,6 +63,23 @@ class PageController extends Controller
         return view('ppc');
     }
 
+    public function digitalMarketing()
+    {
+        return view('digital-marketing'); // Ensure this view exists
+    }
+    public function webDevelopment()
+    {
+        return view('web-development'); // Ensure this view exists
+    }
+    public function GoogleAds()
+    {
+        return view('google-ads'); // Ensure this view exists
+    }
+    public function graphicsDesigning()
+    {
+        return view('graphics-designing'); // Ensure this view file exists
+    }
+    
     public function enquiry(Request $request)
     {
         $enquiry = new Enquiry();

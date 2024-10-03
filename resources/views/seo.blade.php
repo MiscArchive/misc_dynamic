@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h2 class="title">BLOG</h2>
+        <h2 class="title">SEO</h2>
         <h5 class="sub-title">Digital experiences are continually</h5>
       </div>
     </div>

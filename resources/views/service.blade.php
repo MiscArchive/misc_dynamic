@@ -16,93 +16,76 @@
 <div class="container">
 <div class="row wow fadeInUp">
   <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
+   
     <div class="box yellow-bg">
+      <a href="{{ route('digital-marketing') }}">
       <div class="table">
         <div class="inner"> <img src="{{asset('assets/images/dm.png')}}" alt="Image">
           <h4>DIGITAL MARKETING.</h4>
           <p>Misc Archive has many multidimensional strategies that aim to find, connect with, and develop relationships with customers online through a variety of channels in order to persuade them to make a purchase and additional purchases in the future. We provide a wide range of services to help businesses and organisations promote their products, services or brands online. Some of the most common digital marketing services provided by Misc Archive are;<BR><br><br></p>
-          <ul class="list1">
-            <li><i class="ion-checkmark-circled"></i> Content Marketing</li>
-            <li><i class="ion-checkmark-circled"></i> Social Media Marketing</li>
-            <li><i class="ion-checkmark-circled"></i> Video Marketing</li>
-            <li><i class="ion-checkmark-circled"></i> Email Marketing</li>
-            <li><i class="ion-checkmark-circled"></i> Analytics and Reporting</li>
-            <li><i class="ion-checkmark-circled"></i> Mobile Marketing</li>
-            <li><i class="ion-checkmark-circled"></i> Graphic Designing</li>
-          </ul>
-          <span class="expand btn1">EXPAND</span> </div>
+        </div>
         <!-- end inner --> 
       </div>
       <!-- end table --> 
     </div>
+    </a>
     <!-- end box --> 
   </div>
   <!-- end col-3 -->
+
   <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
     <div class="box yellow-bg">
-      <div class="table">
-        <div class="inner"> <img src="{{asset('assets/images/google ad.png')}}" alt="Image">
-          <h4>GOOGLE ADS/PPC </h4>
-          <p>When customers look for specific goods or services that you offer, we'll help you display your services or products to them. We analyze your current campaigns to identify areas that need improvement and develop strategies to reach more potential customers and improve conversions. Our team is experienced in managing campaigns across all the major Google Ads platforms including text, display, video, and mobile.
-            What do we do ? <br><br><br> </p>
-          <ul class="list2">
-            <li><i class="ion-checkmark-circled"></i> Identify Your Goals</li>
-            <li><i class="ion-checkmark-circled"></i> Conduct keyword research</li>
-            <li><i class="ion-checkmark-circled"></i> Write compelling ad copy</li>
-            <li><i class="ion-checkmark-circled"></i> Identify the perfect Ad strategy for you</li>
-            <li><i class="ion-checkmark-circled"></i> Continuously monitor and adjust ad campaigns</li>
-          </ul>
-          <span class="expand btn2">EXPAND</span></div>
-        <!-- end inner --> 
-      </div>
-      <!-- end table --> 
-    </div>
-    <!-- end box --> 
-  </div>
-  <!-- end col-3 -->
-  <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
-    <div class="box yellow-bg">
+      <a href="{{ route('seo') }}">
       <div class="table">
         <div class="inner"> <img src="{{asset('assets/images/seo.png')}}" alt="Image">
           <h4>SEARCH ENGINE OPTIMISATION (SEO)</h4>
           <p>Search engine optimization improves visibility, drives traffic, boosts sales, converts website clicks into customers, and increases business revenue. When users search a query related to your products or services,We tend to make your website appear in the first pages of search engine results page.Thus increasing traffic and sales on your website based on data and industry trends regularly.<br><br><br></p>
-          <ul class="list3">
-            <li><i class="ion-checkmark-circled"></i> Conduct keyword research</li>
-            <li><i class="ion-checkmark-circled"></i> Optimise the client's website structure, content, and meta tags</li>
-            <li><i class="ion-checkmark-circled"></i>Develop and execute a content strategy according to the customers needs</li>
-            <li><i class="ion-checkmark-circled"></i> Optimise the client's local search presence, including their Google My Business</li>
-            <li><i class="ion-checkmark-circled"></i> Build high-quality backlinks to the client's website</li>
-            <li><i class="ion-checkmark-circled"></i> Continuously analyse and improve the client's SEO strategy based on data and industry trends</li>
-          </ul>
-          <span class="expand btn3">EXPAND</span> </div>
+          </div>
         <!-- end inner --> 
       </div>
+      </a>
       <!-- end table --> 
     </div>
     <!-- end box --> 
   </div>
   <!-- end col-3 -->
+
   <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
     <div class="box yellow-bg">
+      <a href="{{ route('web-development') }}">
       <div class="table">
         <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
-          <h4>WEB DEVELOPMENT/GRAPHIC DESIGN</h4>
+          <h4>WEB DEVELOPMENT</h4>
           <p>Web development is the process of creating and maintaining websites. it's the effort done in the background to make a website appear nice, function quickly  and provide a pleasant experience for the users. We specialize in creating custom websites and applications that are tailored to meet your unique needs. We pride ourselves on delivering quality solutions to our clients, ensuring their satisfaction and success in this digital world. </p>
-          <ul class="list4">
-            <li><i class="ion-checkmark-circled"></i>We start by consulting with the client to determine their specific needs and requirements, including functionality, design, and user experience.</li>
-            <li><i class="ion-checkmark-circled"></i> We create a detailed plan and strategy for the development of the website, including wireframes, sitemaps, and other planning documents</li>
-            <li><i class="ion-checkmark-circled"></i> We design and develop the website according to the agreed plan</li>
-            <li><i class="ion-checkmark-circled"></i> We thoroughly test the website for bugs, performance, and usability</li>
-            <li><i class="ion-checkmark-circled"></i> We provide maintenance and support for the website, ensuring that it remains functional, secure, and optimised</li>
-          </ul>
-          <span class="expand btn4">EXPAND</span> </div>
+        </div>
         <!-- end inner --> 
       </div>
+      </a>
       <!-- end table --> 
     </div>
     <!-- end box --> 
   </div>
   <!-- end col-3 --> 
+
+  <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
+    <div class="box yellow-bg">
+      <a href="{{ route('google-ads') }}">
+      <div class="table">
+        <div class="inner"> <img src="{{asset('assets/images/google ad.png')}}" alt="Image">
+          <h4>GOOGLE ADS/PPC </h4>
+          <p>When customers look for specific goods or services that you offer, we'll help you display your services or products to them. We analyze your current campaigns to identify areas that need improvement and develop strategies to reach more potential customers and improve conversions. Our team is experienced in managing campaigns across all the major Google Ads platforms including text, display, video, and mobile.
+            What do we do ? <br><br><br> </p>
+        </div>
+        <!-- end inner --> 
+      </div>
+      </a>
+      <!-- end table --> 
+    </div>
+    <!-- end box --> 
+  </div>
+  <!-- end col-3 -->
+
+
 </div>
 <!-- end row --> 
 
