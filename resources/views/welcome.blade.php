@@ -1,51 +1,47 @@
 
 @extends('layouts.app')
 
+@section('meta_title', 'Digital Marketing company in trivandrum, Kerala | Miscarchive')
+@section('meta_description', 'Looking for a top digital marketing company in Trivandrum, Kerala? Miscarchive offers expert services in EO, social media marketing and more to help your business grow online')
+@section('meta_keywords', 'Digital Marketing, Marketing Solutions, Web Development, SEO, Social Media Management')
+
 @section('content')
   <!-- end nav -->
     <div class="banner">
-        <div id="rev_slider_35_1" class="rev_slider fullwidthabanner">
+      {{--   <div id="rev_slider_35_1" class="rev_slider fullwidthabanner">
             <ul>
-                <li data-transition="scaledownfromtop" data-masterspeed="700"> <img class="img-fluid" alt="Responsive image"
+                <li data-transition="scaledownfromtop" data-masterspeed="700"> <img class="img-fluid rev-slidebg" alt="Responsive image"
                         src="{{asset('assets/images/HOMEPAGE.webp')}}"  data-bgposition="center center" data-bgfit="cover"
-                        data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        data-bgrepeat="no-repeat" data-no-retina>
                     <div class="tp-caption lfb ltt tp-resizeme start" data-x="center" data-hoffset="0" data-y="center"
                         data-voffset="0" data-speed="600" data-start="400" data-easing="Power4.easeOut"
                         data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
                         data-endspeed="500" data-endeasing="Power4.easeIn">
                         <div class="slide-content">
-                            {{-- <h2><b>Complete Solutions <BR>From This Time Forth.</b></h2>
-                            <h5>Every Problem has a Solution and We have one for You !</h5>
-                            <div class="clearfix">
-                                <a href="#">GET STARTED</a>
-                            </div>
-                            <img src="{{ asset('assets/images/mouse.png')}}" alt="Image" class="icon"> --}}
+                            
                         </div>
                     </div>
                 </li>
-                <!-- end banner 1 -->
-                {{-- <li data-transition="scaledownfromtop" data-masterspeed="700"> <img class="responsive"
-                        src="{{asset('assets/images/HOME2.gif')}}" alt="Image" data-bgposition="center center" data-bgfit="cover"
-                        data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <div class="tp-caption lfb ltt tp-resizeme start" data-x="center" data-hoffset="0" data-y="center"
-                        data-voffset="0" data-speed="600" data-start="400" data-easing="Power4.easeOut"
-                        data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-                        data-endspeed="500" data-endeasing="Power4.easeIn">
-                        <div class="slide-content">
-                            <h2><b>Complete Solutions <BR>From This Time Forth.</b></h2>
-                            <h5>Every Problem has a Solution and We have one for You !</h5>
-                            <div class="clearfix">
-                                <a href="#">GET STARTED</a>
-                            </div>
-                            <img src="{{ asset('assets/images/mouse.png')}}" alt="Image" class="icon">
-                        </div>
-                    </div>
-                </li> --}}
-                <!-- end banner 2 -->
+                
             </ul>
-            <!-- end ul -->
-        </div>
+            
+        </div> --}}
         <!-- end rev_slider -->
+
+        
+        <img class="img-fluid rev-slidebg" alt="Responsive image"
+     src="{{ asset('assets/images/Bannermisc.jpg') }}"
+     style="width: 100vw; height: 100vh; object-fit: cover; object-position: center center;"
+     data-bgposition="center center" data-bgfit="cover"
+     data-bgrepeat="no-repeat" data-no-retina>
+
+     <img class="img-fluid2 rev-slidebg" alt="Responsive image"
+     src="{{ asset('assets/images/MISC-PHONE-BANNER3.jpg') }}"
+     style="width: 100vw; height: 100vh; object-fit: cover; object-position: center center;display:no"
+     data-bgposition="center center" data-bgfit="cover"
+     data-bgrepeat="no-repeat" data-no-retina>
+
+     
     </div>
     <!-- end banner -->
 {{-- </header> --}}
@@ -79,144 +75,134 @@
   </section>
 
   <section class="logos">
-    <div class="container wow fadeInUp">
+    <div class="container-fluid  wow fadeInUp">
         <div class="row">
             <div class="col-xs-12">
                 <h2>LOGOS</h2>
-                <div class="logos-carousel">
+
+                <div class="logos-carousel container-fluid">
+                      <div class="item">
+                        <figure><img src="{{ asset('assets/images/promag-logo.png') }}" alt="Image" style="width:70%"></figure>
+                    </div>
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 01.webp') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/icatch-logo.png') }}" alt="Image" style="width:70%"></figure>
+                  </div>
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/C L 01.webp') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 02.webp') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/C L 02.webp') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 03.webp') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/C L 03.webp') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                    
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 05.webp') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/C L 05.webp') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
               
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/bulletclub.png') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/bulletclub.png') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/bm.png') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/bm.png') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
 
                     <!-- end item -->
 
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/jsml.png') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/jsml.png') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
 
-                
-                    
                     <!-- end item -->
 
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/pounchik.png') }}" alt="Image"></figure>
+                        <figure><img src="{{ asset('assets/images/pounchik.png') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
-                    
-                    <!-- end item -->
-                   
-                    <!-- end item -->
-                    
-                   
-                    
-
-
-
-
-
+                  
                     {{-- new logos --}}
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/lemonsole_final.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/lemonsole_final.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                   
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/wisdom.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/wisdom.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/kompeterzen.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/kompeterzen.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/nanoos_final.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/nanoos_final.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                   
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/swarasaakhi.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/swarasaakhi.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/math.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/math.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/ananthapuri.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/ananthapuri.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
         
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/miscaudiable.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/miscaudiable.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
 
                     
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-01.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-01.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-02.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-02.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-03.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-03.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-04.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-04.jpg') }}" alt="Image" style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-05.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-05.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-06.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-06.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-07.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-07.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-08.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-08.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-09.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-09.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-10.jpg') }}" alt="Image"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-10.jpg') }}" alt="Image"style="width:70%"></figure>
                     </div>
-              
-
-
-
-
-
-
-
-
-
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/ssnss.jpg') }}" alt="Image"style="width:70%"></figure>
+                    </div>
+                    <div class="item">
+                      <figure><img src="{{ asset('assets/images/flyers.jpg') }}" alt="Image"style="width:70%"></figure>
+                    </div>
 
                 </div>
                 <!-- end logos-carousel -->
@@ -229,10 +215,71 @@
 {{-- new section --}}
 </section>
   <section class="services">
+            <div class="col-xs-12 mb-5">
+          <h3 style="text-align: center;color:#febd0e;font-size: 30px;font-weight: 700;"><span>Our Services</span></h3>
+      </div>
     <div class="container wow fadeInUp">
+
       <div class="row">
+
+       <div class="col-md-4 no-padding">
+          <div class="box yellow-bg">
+            <a  href="{{route('digital-marketing')}}">
+            <div class="table">
+              <div class="inner"> <img src="{{asset('assets/images/dm.png')}}" alt="Image">
+                <h4>Digital Marketing</h4>
+                <p>Misc Archive is the best digital marketing company in Trivandrum. In a world driven by data, innovation, and connectivity, the key to your business success lies in digital marketing.<br><br></p>
+                
+               </div>
+              <!-- end inner --> 
+            </div>
+          </a>
+            <!-- end table --> 
+          </div>
+          <!-- end box --> 
+        </div>
+        <!-- end col-3 -->
+
+
+        <div class="col-md-4 no-padding">
+            <div class="box yellow-bg">
+              <a  href="{{route('web-development')}}">
+              <div class="table">
+                <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
+                  <h4>Web  Development</h4>
+                  <p>Misc Archive is one of the finest web development companies in Trivandrum. We're passionate about turning your online presence into a masterpiece. A custom-built website is our main attraction.</p>
+                  
+                 </div>
+                <!-- end inner --> 
+              </div>
+              <!-- end table --> 
+            </div>
+            </a>
+            <!-- end box --> 
+        </div>
+          <!-- end col-3 -->
+
+
+            <div class="col-md-4 no-padding">
+              <div class="box yellow-bg">
+                <a  href="{{route('GraphicsDesigning')}}">
+                <div class="table">
+                  <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
+                    <h4>Graphic Designing</h4>
+                    <p>Graphic design is the centre of attraction for any business. We at Misc Archive create unique graphic designs that help improve your business's online visibility. <br><br></p>
+                   
+                     </div>
+                  <!-- end inner --> 
+                </div>
+                </a>
+                <!-- end table --> 
+              </div>
+              <!-- end box --> 
+            </div>
+
+
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/dm.png')}}" alt="Image">
@@ -247,25 +294,9 @@
           <!-- end box --> 
         </div></a>
         <!-- end col-3 -->
+
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
-          <div class="box yellow-bg">
-            <div class="table">
-              <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
-                <h4>Web  Development</h4>
-                <p>Misc Archive is one of the finest web development companies in Trivandrum. We're passionate about turning your online presence into a masterpiece. A custom-built website is our main attraction.</p>
-                
-                <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a></div>
-              <!-- end inner --> 
-            </div>
-            <!-- end table --> 
-          </div>
-          <!-- end box --> 
-        </div>
-      </a>
-        <!-- end col-3 -->
-        <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/mic.png')}}" alt="Image">
@@ -281,7 +312,7 @@
         </div></a>
         <!-- end col-3 -->
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/branding.png')}}" alt="Image">
@@ -296,27 +327,10 @@
           <!-- end box --> 
         </div></a>
         <!-- end col-3 --> 
-      </div>
-      <!-- end row --> 
 
-      <div class="row">
-        <a  href="{{route('service')}}"><div class="col-md-3 no-padding">
-          <div class="box yellow-bg">
-            <div class="table">
-              <div class="inner"> <img src="{{asset('assets/images/dm.png')}}" alt="Image">
-                <h4>Digital Marketing</h4>
-                <p>Misc Archive is the best digital marketing company in Trivandrum. In a world driven by data, innovation, and connectivity, the key to your business success lies in digital marketing.<br><br></p>
-                
-                <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a> </div>
-              <!-- end inner --> 
-            </div>
-            <!-- end table --> 
-          </div>
-          <!-- end box --> 
-        </div></a>
-        <!-- end col-3 -->
+
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
@@ -331,24 +345,10 @@
           <!-- end box --> 
         </div></a>
         <!-- end col-3 -->
+
+
         <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
-          <div class="box yellow-bg">
-            <div class="table">
-              <div class="inner"> <img src="{{asset('assets/images/web devolepment 1.png')}}" alt="Image">
-                <h4>Graphic Designing</h4>
-                <p>Graphic design is the centre of attraction for any business. We at Misc Archive create unique graphic designs that help improve your business's online visibility. <br><br></p>
-               
-                <a  href="{{route('service')}}"><span  class="expand btn1">EXPAND</span></a> </div>
-              <!-- end inner --> 
-            </div>
-            <!-- end table --> 
-          </div>
-          <!-- end box --> 
-        </div></a>
-        <!-- end col-3 -->
-        <a  href="{{route('service')}}">
-        <div class="col-md-3 no-padding">
+        <div class="col-md-4 no-padding">
           <div class="box yellow-bg">
             <div class="table">
               <div class="inner"> <img src="{{asset('assets/images/ai.png')}}" alt="Image">
@@ -363,8 +363,29 @@
           <!-- end box --> 
         </div></a>
         <!-- end col-3 --> 
+        <a  href="{{route('service')}}">
+          <div class="col-md-4 no-padding">
+            <div class="box yellow-bg">
+              <div class="table">
+                <div class="inner"> <img src="{{asset('assets/images/ai.png')}}" alt="Image">
+                  <h4>Property Listing</h4>
+                  <p> we specialize in connecting you with your ideal property. Our comprehensive property listing service offers a curated selection of residential and commercial real estate tailored to meet your unique needs <br><br> </p>
+    
+                  <a  href="{{route('service')}}"><span class="expand btn4">EXPAND</span></a> </div>
+                <!-- end inner --> 
+              </div>
+              <!-- end table --> 
+            </div>
+            <!-- end box --> 
+          </div></a>
+          <!-- end col-3 --> 
       </div>
-      <!-- end row -->
+      <!-- end row --> 
+
+
+
+        
+
     </div>
     <!-- end container --> 
   </section>
@@ -379,7 +400,7 @@
         
         <div class="col-xs-12">
 
-          <h3><span>Digital marketing is crucial for many reasons !</span></h3
+          <h3><span>Digital marketing is crucial for many reasons !</span></h3>
       </div>
       <!-- end col-12 -->
       <div class="col-md-12">
@@ -410,7 +431,7 @@
                  
         <div class="col-xs-12">
 
-          <h3><span>Drawbacks of not having a digital marketing team !</span></h3
+          <h3><span>Drawbacks of not having a digital marketing team !</span></h3>
       </div>
       <!-- end col-12 -->
       <div class="col-md-12">
@@ -441,7 +462,7 @@
 
           <div class="col-xs-12">
 
-              <h3><span>Why Choose Miscarchive for Your Digital Marketing Needs?</span></h3
+              <h3><span>Why Choose Miscarchive for Your Digital Marketing Needs?</span></h3>
           </div>
           <!-- end col-12 -->
           <div class="col-md-12">
@@ -489,8 +510,8 @@
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-xs-12">
->
-                <h3>Latest <span>Blogs</span></h3
+
+                <h3>Latest <span>Blogs</span></h3>
             </div>
             <!-- end col-12 -->
             <div class="col-md-6">

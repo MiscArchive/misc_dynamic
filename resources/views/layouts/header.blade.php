@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Digital Marketing Company in Trivandrum | Seo Services in Trivandrum</title>
-<meta name="author" content="Miscarchive">
-<meta name="description" content="Best Digital Marketing Company in Trivandrum. Misc Archive Provide Best Website Development Company in Trivandrum and Social Media Marketing | Google Ads">
-<meta name="keywords" content="Digital marketing agency in trivandrum, best digital marketing company in trivandrum, digital marketing services
-digital marketing company in Kerala">
-<meta name="title" content="Digital Marketing Company in Trivandrum | Seo Services in Trivandrum">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="@yield('meta_description', 'Default description for the site')">
+  <meta name="keywords" content="@yield('meta_keywords', 'Default, keywords, for, the, site')">
+  <title>@yield('meta_title', 'Digital Marketing Company in Trivandrum | Seo Services in Trivandrum')</title>
 
 <!-- SOCIAL MEDIA META -->
 <meta property="og:description" content="MISCARCHIVE| IT Digital Agency">
@@ -22,16 +18,19 @@ digital marketing company in Kerala">
 
 
 <!-- FAVICON FILES -->
-<link href="" rel="apple-touch-icon-precomposed" sizes="144x144">
+<link href="#" rel="apple-touch-icon-precomposed" sizes="144x144">
 <link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
 <link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
 <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
-<link href="ico/favicon.png" rel="shortcut icon">
+<link rel="shortcut icon" href="/wisdom/images/favicon/favicon.png" type="image/x-icon">
+
+
+
 
 <!-- CSS FILES -->
 <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/owl.carousel.css')}}" rel="stylesheet">
-<link href="{{asset("assets/css/jquery.fancybox.css")}}" media="screen" rel="stylesheet" type="text/css" />
+<link href="{{asset("assets/css/jquery.fancybox.css")}}" media="screen" rel="stylesheet" type="text/css">
 <link href="{{ asset("assets/css/settings.css")}}" rel="stylesheet">
 <link href="{{ asset("assets/css/ionicons.css")}}" rel="stylesheet">
 <link href="{{asset("assets/css/bootstrap.min.css")}}" rel="stylesheet">
@@ -84,7 +83,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <input type="text" name="email" id="email" placeholder="E-MAIL ADDRESS" required>
     <input type="text" name="phone" id="phone" placeholder="PHONE" required>
     
-    <select type="" name="service" class="form-control" id="service">
+    <select name="service" class="form-control" id="service">
       <option value="">Select Service</option>
       <option value="Digital marketing">Digital marketing</option>
       <option value="SMM">Social Media Handling</option>

@@ -19,9 +19,12 @@
         <address class="wow fadeInUp">
         <h3>MAIN OFFICE</h3>
         <!-- <h5>You are always welcome to stop by and say hello !</h5> -->
-        <p>Second Floor, Upasana Building, Kowdiar Ave, opposite Income Tax Office, P.O, Kowdiar
+        <p>Gautham villa 
+          T.c 7/82
+          Kanjirampara po
+          Kanjirampara 
           <br>
-          Thiruvananthapuram, Kerala 695003</p>
+          Thiruvananthapuram, Kerala 695030</p>
         <p>PHONE:
           +91 6282721984 <BR>
           +91 8907634900
