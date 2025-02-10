@@ -13,7 +13,26 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{route('welcome')}}" class="transition">HOME</a></li>
                     <li><a href="{{route('about')}}" class="transition">ABOUT US</a></li>
-                    <li><a href="{{route('service')}}" class="transition">SERVICES</a></li>
+
+                    <li class="dropdown">
+                        <a href="{{ route('service') }}" class="dropdown-toggle transition">SERVICES</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown">
+                                <a href="{{ route('digital-marketing') }}">Digital Marketing</a>
+                                <ul class="sub-dropdown">
+                                    <li><a href="{{ route('seo') }}">SEO</a></li>
+                                    <li><a href="{{ route('google-ads') }}">Google ADS</a></li>
+                                   
+                                </ul>
+                            </li>
+                            <li><a href="{{ route('web-development') }}">Web Development</a></li>
+                            
+                            <li><a href="{{route('GraphicsDesigning')}}">Graphics Designing</a></li>
+                           
+                        </ul>
+                    </li>
+                    
+                    
                     <li> <a href="{{route('blog')}}" class="transition">BLOG</a> </li>
                     <li><a href="{{route('contact')}}" class="transition">CONTACT</a></li>
                     <li><a href="https://miscarchiveportfolio.com/" class="transition">PORTFOLIO</a></li>

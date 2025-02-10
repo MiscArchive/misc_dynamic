@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Digital Marketing Company in Trivandrum | Seo Services in Trivandrum</title>
-<meta name="author" content="Miscarchive">
-<meta name="description" content="Best Digital Marketing Company in Trivandrum. Misc Archive Provide Best Website Development Company in Trivandrum and Social Media Marketing | Google Ads">
-<meta name="keywords" content="Digital marketing agency in trivandrum, best digital marketing company in trivandrum, digital marketing services
-digital marketing company in Kerala">
-<meta name="title" content="Digital Marketing Company in Trivandrum | Seo Services in Trivandrum">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="@yield('meta_description', 'Default description for the site')">
+  <meta name="keywords" content="@yield('meta_keywords', 'Default, keywords, for, the, site')">
+  <title>@yield('meta_title', 'Digital Marketing Company in Trivandrum | Seo Services in Trivandrum')</title>
 
 <!-- SOCIAL MEDIA META -->
 <meta property="og:description" content="MISCARCHIVE| IT Digital Agency">

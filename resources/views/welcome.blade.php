@@ -1,6 +1,10 @@
 
 @extends('layouts.app')
 
+@section('meta_title', 'Digital Marketing company in trivandrum, Kerala | Miscarchive')
+@section('meta_description', 'Looking for a top digital marketing company in Trivandrum, Kerala? Miscarchive offers expert services in EO, social media marketing and more to help your business grow online')
+@section('meta_keywords', 'Digital Marketing, Marketing Solutions, Web Development, SEO, Social Media Management')
+
 @section('content')
   <!-- end nav -->
     <div class="banner">

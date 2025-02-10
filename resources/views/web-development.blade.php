@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('meta_title', 'Web developement company in trivandrum, Kerala | Miscarchive')
+@section('meta_description', 'Miscarchive is a top web developement company in trivandrum , Kerala.Providing innovative website design and developement services to eleate your business online')
+@section('meta_keywords', 'Digital Marketing, Marketing Solutions, Web Development, SEO, Social Media Management')
+
 @section('content')
 <div class="transition-overlay yellow-bg"></div>
 
