@@ -73,11 +73,15 @@ class PageController extends Controller
     }
     public function GoogleAds()
     {
-        return view('google-ads'); // Ensure this view exists
+        return view('google-ads'); 
     }
     public function graphicsDesigning()
     {
-        return view('graphics-designing'); // Ensure this view file exists
+        return view('graphics-designing'); 
+    }
+    public function miscAudibles()
+    {
+        return view('misc-audibles'); 
     }
     
     public function enquiry(Request $request)

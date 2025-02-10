@@ -47,6 +47,7 @@ Route::get('service/seo', [PageController::class, 'seo'])->name('seo');
 Route::get('service/web-development', [PageController::class, 'webDevelopment'])->name('web-development');
 Route::get('service/google-ads', [PageController::class, 'GoogleAds'])->name('google-ads');
 Route::get('service/graphics-designing', [PageController::class, 'graphicsDesigning'])->name('GraphicsDesigning');
+Route::get('service/misc-audibles', [PageController::class, 'miscAudibles'])->name('miscaudibles');
 
 
 

@@ -28,6 +28,8 @@
                             <li><a href="{{ route('web-development') }}">Web Development</a></li>
                             
                             <li><a href="{{route('GraphicsDesigning')}}">Graphics Designing</a></li>
+                            <li><a href="{{ route('miscaudibles') }}">Misc Audibles</a></li>
+
                            
                         </ul>
                     </li>
