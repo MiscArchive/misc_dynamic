@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+ <link rel="canonical" href="https://miscarchive.com/">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="@yield('meta_description', 'Default description for the site')">
   <meta name="keywords" content="@yield('meta_keywords', 'Default, keywords, for, the, site')">

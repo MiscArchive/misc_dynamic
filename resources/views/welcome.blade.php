@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 @section('meta_title', 'Digital Marketing company in trivandrum, Kerala | Miscarchive')
-@section('meta_description', 'Looking for a top digital marketing company in Trivandrum, Kerala? Miscarchive offers expert services in EO, social media marketing and more to help your business grow online')
+@section('meta_description', 'Looking for the best digital marketing company in Trivandrum? Miscarchive offers expert SEO, social media marketing and more to grow your business online.')
 @section('meta_keywords', 'Digital Marketing, Marketing Solutions, Web Development, SEO, Social Media Management')
 
 @section('content')
@@ -57,6 +57,10 @@
         <div class="col-md-6 right-side">
           <div class="table wow fadeInUp">
             <div class="inner">
+              
+              {{-- Added for SEO  --}}
+              <h1 style="color: #febd0e; display: none;"><b>Digital Marketing Company in Trivandrum</b></h1>
+
               <h3> <span>What makes us a team?</span></h3>
               <p>Misc Archive is the Best Digital Marketing Company In Trivandrum. We specialise in creating custom marketing solutions for brands and businesses in India and throughout the world.
                 By skilfully fusing the 3 C’s of marketing-Customer, Company, Competitor- with the influence of the web, social media marketing, and mobile technology, our team enables our clients to realise their full potential.
