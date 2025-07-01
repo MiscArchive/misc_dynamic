@@ -26,6 +26,7 @@ Route::get('service', [PageController::class, 'service'])->name('service');
 Route::get('contact', [PageController::class, 'contact'])->name('contact');
 Route::get('career', [PageController::class, 'career'])->name('career');
 Route::get('ai-rpa', [PageController::class, 'ai_rpa'])->name('ai-rpa');
+Route::get('blog1', [PageController::class, 'blog1'])->name('blog1');
 Route::get('smm', [PageController::class, 'smm'])->name('smm');
 Route::get('dmn', [PageController::class, 'dmn'])->name('dmn');
 
@@ -48,6 +49,8 @@ Route::get('service/web-development', [PageController::class, 'webDevelopment'])
 Route::get('service/google-ads', [PageController::class, 'GoogleAds'])->name('google-ads');
 Route::get('service/graphics-designing', [PageController::class, 'graphicsDesigning'])->name('GraphicsDesigning');
 Route::get('service/misc-audibles', [PageController::class, 'miscAudibles'])->name('miscaudibles');
+
+
 
 
 
