@@ -27,7 +27,7 @@
                         <div class="service-info">
                             <span>Personal Care   /   October 27, 2024</span>
                             <h5>The Importance of Selecting the Appropriate Digital Marketing Company in Trivandrum</h5>
-                            <a href="blog1">More Details <i class="fa-solid fa-arrow-right-long"></i></a>
+                                      <a href="{{route('blog1')}}" class="link">READ MORE</a>
                         </div>
                     </div>
                 </div>

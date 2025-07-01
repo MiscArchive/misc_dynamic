@@ -83,6 +83,14 @@ class PageController extends Controller
     {
         return view('misc-audibles'); 
     }
+
+    public function blog1()
+    {
+    return view('blog1'); // Laravel looks for resources/views/file1.blade.php
+    }
+
+
+
     
     public function enquiry(Request $request)
     {
