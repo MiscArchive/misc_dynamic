@@ -43,7 +43,8 @@
                         <div class="service-info">
                             <span>Industrial Cleaning  /   October 27, 2024</span>
                             <h5>Understanding Industrial Cleaning Solutions: What Works Best for Heavy-Duty</h5>
-                            <a href="#">More Details <i class="fa-solid fa-arrow-right-long"></i></a>
+                                      {{-- <a href="{{route('blog1')}}" class="link">READ MORE</a> --}}
+
                         </div>
                     </div>
                 </div>
