@@ -541,7 +541,7 @@ header video{min-width:100%; min-height:100%; transform: scale(1.3); float:left;
 
 
 /* BLOG */
-.blog{ width:100%; float:left; padding:100px 0;}
+.blog{ width:100%; float:left; padding:50px 0;}
 .blog *{-moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease;}
 .blog .blog-post{ width:100%; float:left; padding-right:20px; margin-bottom:100px;}
 .blog figure{ width:100%;float:left; margin-bottom:20px; position:relative; background:#febd0e;}
@@ -866,6 +866,14 @@ header .slide-content h5{ font-size:12px;}
     overflow: hidden;
 }
 
+.blogDetails{
+    position: relative;
+}
+
+.blogDetails img{
+    width: 100%;
+    height: auto;
+}
 
 /* animation */
 @-webkit-keyframes fadeInDown {

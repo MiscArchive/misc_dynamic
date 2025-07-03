@@ -17,9 +17,12 @@
 <section class="blog">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-md-offset-2 wow fadeInUp">
+      <div class=" wow fadeInUp">
         <div class="blog-post">
-          <figure><img src="{{asset('assets/images/blogs/RPA.png')}}" alt="Image"></figure>
+          {{-- <figure><img src="{{asset('assets/images/blogs/dm-img.jpg')}}" alt="Image"></figure> --}}
+          <div class="blogDetails">
+                  <img src="{{asset('assets/images/blogs/dm-img2.jpg')}}" loading="lazy" alt="blog-img"/>
+          </div>
           <h3>The Importance of Selecting the Appropriate Digital Marketing Company in Trivandrum</h3>
           <small>1 July</small> <span class="border"></span>
           <p>In the current rapid digital landscape, the success of a business largely relies on its visibility and perceived worth to its intended audience. This is the point at which the strength of digital marketing is most evident. Regardless of whether you’re a new venture aiming to enter the market or a well-established company seeking to expand, collaborating with the appropriate Digital Marketing company in Trivandrum can transform your brand’s path.

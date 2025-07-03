@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
- <link rel="canonical" href="https://miscarchive.com/">
+ {{-- <link rel="canonical" href="https://miscarchive.com/"> --}}
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="@yield('meta_description', 'Default description for the site')">
   <meta name="keywords" content="@yield('meta_keywords', 'Default, keywords, for, the, site')">
   <title>@yield('meta_title', 'Digital Marketing Company in Trivandrum | Seo Services in Trivandrum')</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
 <!-- SOCIAL MEDIA META -->
 <meta property="og:description" content="MISCARCHIVE| IT Digital Agency">
