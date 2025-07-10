@@ -17,7 +17,7 @@
 <section class="blog">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-md-offset-2 wow fadeInUp">
+      <div class="wow fadeInUp">
         <div class="blog-post">
           <figure><img src="{{asset('assets/images/blogs/RPA.png')}}" alt="Image"></figure>
           <h3>So what are Ai and RPA?</h3>

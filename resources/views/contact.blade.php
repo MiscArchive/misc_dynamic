@@ -15,9 +15,9 @@
 <section class="contact-info">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 text-center">
+      <div class="col-xs-6 text-center">
         <address class="wow fadeInUp">
-        <h3>MAIN OFFICE</h3>
+        <h3>Get in Touch With Us</h3>
         <!-- <h5>You are always welcome to stop by and say hello !</h5> -->
         <p>Gautham villa 
           T.c 7/82
@@ -25,11 +25,10 @@
           Kanjirampara 
           <br>
           Thiruvananthapuram, Kerala 695030</p>
-        <p>PHONE:
-          +91 6282721984 <BR>
-          +91 8907634900
-          </p>
-        <a href="#">support [at] miscarchive.com</a>
+        <p>PHONE: &nbsp; <a href="tel:+916282721984">+91 6282721984</a> , &nbsp; &nbsp; <a href="tel:+91 8907634900"> +91 8907634900</a>
+        </p>
+
+        <a href="#">support@miscarchive.com</a>
         </address>
         <form  action="{{route('contactform')}}" method="post" class="wow fadeInUp">
           @csrf
@@ -61,7 +60,13 @@
         </div>
         <!-- end error --> 
       </div>
-      <!-- end col-12 --> 
+      <!-- end col-6 --> 
+
+      <div class="col-xs-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.817829742477!2d76.9749134744944!3d8.517061096793476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bb3682df7b0b%3A0x883771e7a4c3fd4f!2sMisc%20Archive!5e0!3m2!1sen!2sin!4v1751711918093!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+
     </div>
     <!-- end row --> 
   </div>

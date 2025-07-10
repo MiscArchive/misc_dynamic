@@ -62,6 +62,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    
+  {{-- ---------------------------------------------------------------- --}}
+  {{-- New Preloader Settings --}}
+<script>setTimeout(function () {
+  const preloader = document.getElementById('preloader');
+  preloader.classList.add('fade-out');
+  setTimeout(() => {
+    preloader.style.display = 'none';
+  }, 700); // duration of fade-out transition
+}, 1000); // <--- THIS is your fixed 1 second duration
+</script>
+{{-- ------------------------------------------------------------------- --}}
+
+
 </head>
 <body>
 <div class="loading yellow-bg">

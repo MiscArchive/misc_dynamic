@@ -6,6 +6,7 @@
 
 <!-- end nav -->
 <div class="container">
+  
     <div class="row">
       <div class="col-xs-12">
         <h2 class="title">BLOG</h2>

@@ -86,126 +86,126 @@
 
                 <div class="logos-carousel container-fluid">
                       <div class="item">
-                        <figure><img src="{{ asset('assets/images/promag-logo.png') }}" alt="Image" style="width:70%"></figure>
+                        <figure><img src="{{ asset('assets/images/promag-logo.png') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/icatch-logo.png') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/icatch-logo.png') }}" alt="Image" style="width:50%"></figure>
                   </div>
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 01.webp') }}" alt="Image" style="width:70%"></figure>
+                        <figure><img src="{{ asset('assets/images/C L 01.webp') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 02.webp') }}" alt="Image" style="width:70%"></figure>
+                        <figure><img src="{{ asset('assets/images/C L 02.webp') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 03.webp') }}" alt="Image" style="width:70%"></figure>
+                        <figure><img src="{{ asset('assets/images/C L 03.webp') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <!-- end item -->
                    
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/C L 05.webp') }}" alt="Image" style="width:70%"></figure>
+                        <figure><img src="{{ asset('assets/images/C L 05.webp') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <!-- end item -->
               
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/bulletclub.png') }}" alt="Image" style="width:70%"></figure>
+                        <figure><img src="{{ asset('assets/images/bulletclub.png') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/bm.png') }}" alt="Image" style="width:70%"></figure>
-                    </div>
-                    <!-- end item -->
-
-                    <!-- end item -->
-
-                    <div class="item">
-                        <figure><img src="{{ asset('assets/images/jsml.png') }}" alt="Image" style="width:70%"></figure>
+                        <figure><img src="{{ asset('assets/images/bm.png') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <!-- end item -->
 
                     <!-- end item -->
 
                     <div class="item">
-                        <figure><img src="{{ asset('assets/images/pounchik.png') }}" alt="Image" style="width:70%"></figure>
+                        <figure><img src="{{ asset('assets/images/jsml.png') }}" alt="Image" style="width:50%"></figure>
+                    </div>
+                    <!-- end item -->
+
+                    <!-- end item -->
+
+                    <div class="item">
+                        <figure><img src="{{ asset('assets/images/pounchik.png') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <!-- end item -->
                   
                     {{-- new logos --}}
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/lemonsole_final.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/lemonsole_final.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
                   
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/wisdom.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/wisdom.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <!-- end item -->
                     
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/kompeterzen.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/kompeterzen.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/nanoos_final.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/nanoos_final.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <!-- end item -->
                   
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/swarasaakhi.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/swarasaakhi.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <!-- end item -->
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/math.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/math.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/ananthapuri.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/ananthapuri.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
         
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/miscaudiable.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/miscaudiable.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
 
                     
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-01.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-01.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-02.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-02.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-03.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-03.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-04.jpg') }}" alt="Image" style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-04.jpg') }}" alt="Image" style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-05.jpg') }}" alt="Image"style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-05.jpg') }}" alt="Image"style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-06.jpg') }}" alt="Image"style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-06.jpg') }}" alt="Image"style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-07.jpg') }}" alt="Image"style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-07.jpg') }}" alt="Image"style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-08.jpg') }}" alt="Image"style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-08.jpg') }}" alt="Image"style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-09.jpg') }}" alt="Image"style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-09.jpg') }}" alt="Image"style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/misc web logos-10.jpg') }}" alt="Image"style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/misc web logos-10.jpg') }}" alt="Image"style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/ssnss.jpg') }}" alt="Image"style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/ssnss.jpg') }}" alt="Image"style="width:50%"></figure>
                     </div>
                     <div class="item">
-                      <figure><img src="{{ asset('assets/images/flyers.jpg') }}" alt="Image"style="width:70%"></figure>
+                      <figure><img src="{{ asset('assets/images/flyers.jpg') }}" alt="Image"style="width:50%"></figure>
                     </div>
 
                 </div>
@@ -521,17 +521,12 @@
             <div class="col-md-6">
                 <div class="news-box">
                     <figure><img src="{{asset('assets/images/blogs/RPA.png')}}" alt="Image"></figure>
-                    <h4>So what are Ai and RPA?</h4>
+                    <h4>The Importance of Selecting the Appropriate Digital Marketing Company in Trivandrum</h4>
                     <!-- <small>Photography, Design, Tutorials</small> -->
-                    <p>In the present world, RPA and AI are becoming more and more significant. They can assist
-                        businesses in automating routine processes to boost productivity and cut costs. Data input,
-                        customer support, and accounting are a few examples of high-volume, low-complexity operations
-                        that can be automated with RPA. Contrarily, more difficult jobs like natural language
-                        processing, image identification, and predictive analytics can be performed using artificial
-                        intelligence (AI). AI may be used to create intelligent robots and systems that can work
-                        independently and learn from their experiences. RPA and AI are transforming the way work is done
-                        and helping organizations stay competitive in a rapidly changing digital landscape.</p>
-                    <a href="AI&RPA.html" class="link">READ MORE</a>
+                    <p>
+                      In the current rapid digital landscape, the success of a business largely relies on its visibility and perceived worth to its intended audience. This is the point at which the strength of digital marketing is most evident. Regardless of whether you’re a new venture aiming to enter the market or a well-established company seeking to expand, collaborating with the appropriate Digital Marketing company in Trivandrum can transform your brand’s path.
+                    </p>
+                      <a href="{{route('blog1')}}" class="link">READ MORE</a>
                 </div>
                 <!-- end news-box -->
             </div>
@@ -541,13 +536,15 @@
                     <figure><img src="{{asset('assets/images/blogs/PPC4.jpg')}}" alt="Image"></figure>
                     <h4>Why Misc Archive is the Best Digital Marketing Company In Trivandrum?</h4>
                     <!-- <small>Photography, Design, Tutorials</small> -->
-                    <p>Misc Archive is the Best Digital Marketing Company In Trivandrum. We specialise in creating custom marketing solutions for brands and businesses in India and throughout the world.
+                    
+                    {{-- <p>Misc Archive is the Best Digital Marketing Company In Trivandrum. We specialise in creating custom marketing solutions for brands and businesses in India and throughout the world.
                         By skilfully fusing the 3 C’s of marketing-Customer, Company, Competitor- with the influence of the web, social media marketing, and mobile technology, our team enables our clients to realise their full potential.
                         <br>
                         we understand that in the fast-paced world of digital marketing, staying ahead of the curve is paramount. Here's why partnering with us is your best decision and we’ll assure you that we are the “ Best Digital Marketing company in Trivandrum''
                     </p>
                     <a href="{{route('dmn')}}" class="link">READ MORE</a>
-                </div>
+                </div> --}}
+
                 <!-- end news-box -->
             </div>
             <!-- end col-6 -->
