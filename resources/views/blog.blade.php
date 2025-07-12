@@ -21,11 +21,11 @@
                         <div class="service-content-wrapper">
                             <div class="service-content-wrapper-overlay wow"></div>
                             <div class="service-image blog-image">
-                                <img src="assets/images/blogs/dm-img.jpg" alt="img">
+                                <img src="assets/images/blogs/misc-blog.jpg" alt="img">
                             </div>
                         </div>                        
                         <div class="service-info">
-                            <span>Digital Marketing  /  October 27, 2024</span>
+                            <span>Digital Marketing  /  July 1, 2025</span>
                             <h5>The Importance of Selecting the Appropriate Digital Marketing Company in Trivandrum</h5>
                                       <a href="{{route('blog1')}}" class="link">READ MORE</a>
                         </div>
@@ -37,7 +37,7 @@
                         <div class="service-content-wrapper">
                             <div class="service-content-wrapper-overlay wow"></div>
                             <div class="service-image blog-image">
-                                <img src="assets/images/blogs/dm-img.jpg" alt="img">
+                                <img src="assets/images/blogs/RPA.png" alt="img">
                             </div>
                         </div>                        
                         <div class="service-info">
@@ -54,7 +54,7 @@
                         <div class="service-content-wrapper">
                             <div class="service-content-wrapper-overlay wow"></div>
                             <div class="service-image blog-image">
-                                <img src="assets/images/blogs/dm-img.jpg" alt="img">
+                                <img src="assets/images/blogs/PPC.png" alt="img">
                             </div>
                         </div>                        
                         <div class="service-info">
@@ -70,7 +70,7 @@
                         <div class="service-content-wrapper">
                             <div class="service-content-wrapper-overlay wow"></div>
                             <div class="service-image blog-image">
-                                <img src="assets/images/blogs/dm-img.jpg" alt="img">
+                                <img src="assets/images/blogs/SEO1.jpg" alt="img">
                             </div>
                         </div>                        
                         <div class="service-info">
@@ -87,7 +87,7 @@
                         <div class="service-content-wrapper">
                             <div class="service-content-wrapper-overlay wow"></div>
                             <div class="service-image blog-image">
-                                <img src="assets/images/blogs/dm-img.jpg" alt="img">
+                                <img src="assets/images/blogs/smm.jpg" alt="img">
                             </div>
                         </div>                        
                         <div class="service-info">
@@ -105,7 +105,8 @@
     <!-- end row --> 
   </div>
 </section>
-<section class="quote" data-stellar-background-ratio="0.5">
+
+{{-- <section class="quote" data-stellar-background-ratio="0.5">
   <div class="container wow fadeInUp">
     <div class="row">
       <div class="col-xs-12">
@@ -124,6 +125,6 @@
     <!-- end row --> 
   </div>
   <!-- end container --> 
-</section>
+</section> --}}
 
 @endsection

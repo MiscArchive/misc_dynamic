@@ -8,7 +8,7 @@
     <div class="row">
       <div class="col-xs-12">
         <h2 class="title">BLOG</h2>
-        <h5 class="sub-title">Digital experiences are continually</h5>
+        {{-- <h5 class="sub-title">Digital experiences are continually</h5> --}}
       </div>
     </div>
   </div>
@@ -16,7 +16,7 @@
 <section class="blog">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-md-offset-2 wow fadeInUp">
+      <div class=" wow fadeInUp">
         <div class="blog-post">
           <figure><img src="{{asset('assets/images/blogs/PPC.png')}}" alt="Image"></figure>
           <h3>Pay Per Clicks in 2023</h3>

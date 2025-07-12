@@ -220,7 +220,7 @@
 </section>
   <section class="services">
             <div class="col-xs-12 mb-5">
-          <h3 style="text-align: center;color:#febd0e;font-size: 30px;font-weight: 700;"><span>Our Services</span></h3>
+          <h3 style="text-align: center;color:#000000;font-size: 30px;font-weight: 700;"><span> Our Services</span></h3>
       </div>
     <div class="container wow fadeInUp">
 
@@ -524,7 +524,7 @@
                     <h4>The Importance of Selecting the Appropriate Digital Marketing Company in Trivandrum</h4>
                     <!-- <small>Photography, Design, Tutorials</small> -->
                     <p>
-                      In the current rapid digital landscape, the success of a business largely relies on its visibility and perceived worth to its intended audience. This is the point at which the strength of digital marketing is most evident. Regardless of whether you’re a new venture aiming to enter the market or a well-established company seeking to expand, collaborating with the appropriate Digital Marketing company in Trivandrum can transform your brand’s path.
+                      In the current rapid digital landscape, the success of a business largely relies on its visibility and perceived worth to its intended audience. This is the point at which the strength of digital marketing is most evident.
                     </p>
                       <a href="{{route('blog1')}}" class="link">READ MORE</a>
                 </div>

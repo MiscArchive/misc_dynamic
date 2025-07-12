@@ -16,7 +16,7 @@
 <section class="blog">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-md-offset-2 wow fadeInUp">
+      <div class="wow fadeInUp">
         <div class="blog-post">
           <figure><img src="{{asset('assets/images/blogs/smm.jpg')}}" alt="Image"></figure>
           <h3>Why do Social Media Marketing?</h3>

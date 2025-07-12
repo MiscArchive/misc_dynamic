@@ -25,11 +25,7 @@ Route::get('blog', [PageController::class, 'blog'])->name('blog');
 Route::get('service', [PageController::class, 'service'])->name('service');
 Route::get('contact', [PageController::class, 'contact'])->name('contact');
 Route::get('career', [PageController::class, 'career'])->name('career');
-Route::get('ai-rpa', [PageController::class, 'ai_rpa'])->name('ai-rpa');
-Route::get('smm', [PageController::class, 'smm'])->name('smm');
-Route::get('dmn', [PageController::class, 'dmn'])->name('dmn');
 
-Route::get('ppc', [PageController::class, 'ppc'])->name('ppc');
 Route::post('enquiry', [PageController::class, 'enquiry'])->name('enquiry');
 Route::post('contactform', [PageController::class, 'contactform'])->name('contactform');
 Route::post('orders', [PageController::class, 'orders'])->name('orders');
@@ -43,14 +39,17 @@ Route::get('admin/signin', [LoginController::class, 'signin'])->name('signin');
 Route::post('/signup', [LoginController::class, 'signup'])->name('signup');
 
 Route::get('service/digital-marketing', [PageController::class, 'digitalMarketing'])->name('digital-marketing');
-Route::get('service/seo', [PageController::class, 'seo'])->name('seo');
 Route::get('service/web-development', [PageController::class, 'webDevelopment'])->name('web-development');
 Route::get('service/google-ads', [PageController::class, 'GoogleAds'])->name('google-ads');
 Route::get('service/graphics-designing', [PageController::class, 'graphicsDesigning'])->name('GraphicsDesigning');
 Route::get('service/misc-audibles', [PageController::class, 'miscAudibles'])->name('miscaudibles');
 
-
-Route::get('blog1', [PageController::class, 'blog1'])->name('blog1');
+Route::get('/blog/search-engine-optimization', [PageController::class, 'seo'])->name('seo');
+Route::get('/blog/what-are-ai-and-rpa', [PageController::class, 'ai_rpa'])->name('ai-rpa');
+Route::get('/blog/social-media-marketing', [PageController::class, 'smm'])->name('smm');
+Route::get('/blog/why-digital-marketing', [PageController::class, 'dmn'])->name('dmn');
+Route::get('/blog/pay-per-click', [PageController::class, 'ppc'])->name('ppc');
+Route::get('/blog/best-digital-marketing-company-in-trivandrum', [PageController::class, 'blog1'])->name('blog1');
 
 
 // Wisdom routes

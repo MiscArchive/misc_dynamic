@@ -20,7 +20,7 @@
                             <li class="dropdown">
                                 <a href="{{ route('digital-marketing') }}">Digital Marketing</a>
                                 <ul class="sub-dropdown">
-                                    <li><a href="{{ route('seo') }}">SEO</a></li>
+                                    {{-- <li><a href="{{ route('seo') }}">SEO</a></li> --}}
                                     <li><a href="{{ route('google-ads') }}">Google ADS</a></li>
                                    
                                 </ul>

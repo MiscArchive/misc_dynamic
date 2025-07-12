@@ -22,7 +22,7 @@
         <div class="blog-post">
           {{-- <figure><img src="{{asset('assets/images/blogs/dm-img.jpg')}}" alt="Image"></figure> --}}
           <div class="blogDetails">
-                  <img src="{{asset('assets/images/blogs/dm-img2.jpg')}}" loading="lazy" alt="blog-img"/>
+                  <img src="{{asset('assets/images/blogs/misc-blog.jpg')}}" loading="lazy" alt="blog-img"/>
           </div>
           <h3>The Importance of Selecting the Appropriate Digital Marketing Company in Trivandrum</h3>
           <small>1 July</small> <span class="border"></span>
