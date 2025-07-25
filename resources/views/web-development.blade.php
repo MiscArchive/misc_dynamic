@@ -18,7 +18,17 @@
         </header>
         <section class="about-us">
             <div class="container" style="padding: 100px;text-align:center">
-                <h1>Page will be visible Soon</h1>
+             <h4 style="text-align:justify"> Web development is the process of creating and maintaining websites. it is the effort done in the background to make a website appear nice, function quickly and provide a pleasant experience for the users. We specialize in creating custom websites and applications that are tailored to meet your unique needs. We pride ourselves on delivering quality solutions to our clients, ensuring their satisfaction and success in this digital world. </h4>   
+             <br>  <h2> Our Web Development Services:</h2> <br>
+        <h4 style="text-align:justify">
+        <b>Ongoing Support & Maintenance</b> : We offer continued maintenance and updates to ensure your website remains secure and up-to-date.
+        <br> <br> <b>Custom Website Design & Development </b> : We craft unique websites that are built specifically to suit your brand and business goals.
+       <br> <br> <b>E-commerce Solutions</b> : Secure and scalable online stores designed to provide seamless shopping experiences for your customers.
+        <br> <br><b>Mobile-Friendly Design</b> : Optimized websites that work flawlessly across desktops, tablets, and smartphones.
+        <br> <br> <b>Interactive Features</b> : From contact forms to booking systems, we add interactive elements that engage users and streamline your business processes.
+        </h4>
+
+
               </div>
         </section>
 

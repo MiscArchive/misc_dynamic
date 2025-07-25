@@ -509,51 +509,68 @@
 
 
 <!-- end logos -->
-<section class="latest-news" style="color: black;">
-   
-    <div class="container wow fadeInUp">
-        <div class="row">
-            <div class="col-xs-12">
 
-                <h3>Latest <span>Blogs</span></h3>
-            </div>
-            <!-- end col-12 -->
-            <div class="col-md-6">
-                <div class="news-box">
-                    <figure><img src="{{asset('assets/images/blogs/RPA.png')}}" alt="Image"></figure>
-                    <h4>The Importance of Selecting the Appropriate Digital Marketing Company in Trivandrum</h4>
-                    <!-- <small>Photography, Design, Tutorials</small> -->
-                    <p>
-                      In the current rapid digital landscape, the success of a business largely relies on its visibility and perceived worth to its intended audience. This is the point at which the strength of digital marketing is most evident.
-                    </p>
-                      <a href="{{route('blog1')}}" class="link">READ MORE</a>
+{{-- -------------------------------------------- --}}
+<section class="blog">
+  <div class="container">
+              <h1 style="color:black"> Latest News </h1>
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="service-container blog-container wow fadeInDown">
+                        <div class="service-content-wrapper">
+                            <div class="service-content-wrapper-overlay wow"></div>
+                            <div class="service-image blog-image">
+                                <img src="assets/images/blogs/misc-blog.jpg" alt="img">
+                            </div>
+                        </div>                        
+                        <div class="service-info">
+                            <span>Digital Marketing  /  July 1, 2025</span>
+                            <h5 style="color:black">The Importance of Selecting the Appropriate Digital Marketing Company in Trivandrum</h5>
+                                      <a href="{{route('blog1')}}" class="link">READ MORE</a>
+                        </div>
+                    </div>
                 </div>
-                <!-- end news-box -->
-            </div>
-            <!-- end col-6 -->
-            <div class="col-md-6">
-                <div class="news-box">
-                    <figure><img src="{{asset('assets/images/blogs/PPC4.jpg')}}" alt="Image"></figure>
-                    <h4>Why Misc Archive is the Best Digital Marketing Company In Trivandrum?</h4>
-                    <!-- <small>Photography, Design, Tutorials</small> -->
-                    
-                    {{-- <p>Misc Archive is the Best Digital Marketing Company In Trivandrum. We specialise in creating custom marketing solutions for brands and businesses in India and throughout the world.
-                        By skilfully fusing the 3 C’s of marketing-Customer, Company, Competitor- with the influence of the web, social media marketing, and mobile technology, our team enables our clients to realise their full potential.
-                        <br>
-                        we understand that in the fast-paced world of digital marketing, staying ahead of the curve is paramount. Here's why partnering with us is your best decision and we’ll assure you that we are the “ Best Digital Marketing company in Trivandrum''
-                    </p>
-                    <a href="{{route('dmn')}}" class="link">READ MORE</a>
-                </div> --}}
 
-                <!-- end news-box -->
-            </div>
-            <!-- end col-6 -->
-        </div>
-        <!-- end row -->
+          {{-- blog 2 --}}
+               <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="service-container blog-container wow fadeInDown">
+                        <div class="service-content-wrapper">
+                            <div class="service-content-wrapper-overlay wow"></div>
+                            <div class="service-image blog-image">
+                                <img src="assets/images/blogs/RPA.png" alt="img">
+                            </div>
+                        </div>                        
+                        <div class="service-info">
+                            <span>Digital Marketing  /  October 27, 2024</span>
+                            <h5 style="color:black">So what are Ai and RPA?</h5>
+                                      <a href="{{route('ai-rpa')}}" class="link">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+              {{-- blog 3 --}}
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="service-container blog-container wow fadeInDown">
+                        <div class="service-content-wrapper">
+                            <div class="service-content-wrapper-overlay wow"></div>
+                            <div class="service-image blog-image">
+                                <img src="assets/images/blogs/PPC.png" alt="img">
+                            </div>
+                        </div>                        
+                        <div class="service-info">
+                            <span>Digital Marketing  /  October 27, 2024</span>
+                            <h5 style="color:black">Pay Per Clicks in 2023</h5>
+                                      <a href="{{route('ppc')}}" class="link">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+         <!-- end col-12 --> 
     </div>
-    <!-- end container -->
+    <!-- end row --> 
+  </div>
 </section>
-<!-- end latest-news -->
+
+{{-- ------------------------------------------------- --}}
 
 
 

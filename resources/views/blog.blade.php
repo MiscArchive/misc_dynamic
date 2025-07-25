@@ -64,6 +64,7 @@
                         </div>
                     </div>
                 </div>
+                
             {{-- blog 4 --}}
             <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="service-container blog-container wow fadeInDown">
@@ -97,6 +98,7 @@
                         </div>
                     </div>
                 </div>
+                
 {{-- -------------------------------------- --}}
    
       

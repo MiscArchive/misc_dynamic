@@ -20,9 +20,10 @@
                             <li class="dropdown">
                                 <a href="{{ route('digital-marketing') }}">Digital Marketing</a>
                                 <ul class="sub-dropdown">
-                                    {{-- <li><a href="{{ route('seo') }}">SEO</a></li> --}}
-                                    <li><a href="{{ route('google-ads') }}">Google ADS</a></li>
-                                   
+                                    <li><a href="{{ route('seo') }}">SEO</a></li>
+                                    {{-- <li><a href="{{ route('sem') }}">SEM</a></li>
+                                    <li><a href="{{ route('smm') }}">SMM</a></li>
+                                    <li><a href="{{ route('email') }}">E-mail Marketing</a></li> --}}
                                 </ul>
                             </li>
                             <li><a href="{{ route('web-development') }}">Web Development</a></li>

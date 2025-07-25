@@ -8,7 +8,15 @@
     <div class="row">
       <div class="col-xs-12">
         <h2 class="title">BLOG</h2>
-        <h5 class="sub-title">Digital experiences are continually</h5>
+
+              <div >
+                 <a href="index.html" style='color:white'><b>Home</b></a>
+                 <i class="fa fa-angle-right"></i>
+                 <a href="#" style='color:white'><b>Blog</b></a>
+                 <i class="fa fa-angle-right"></i>
+                 <a href="#" style='color:white'><b> Why do we need Social Media Marketing? </b></a>
+              </div>
+
       </div>
     </div>
   </div>
